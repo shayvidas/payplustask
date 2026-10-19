@@ -17,18 +17,49 @@ Android app for managing billing entries. Built with Kotlin, Jetpack Compose, an
 - **Coroutines + StateFlow** - Async & state management
 - **Material 3** - UI design
 
+## Screenshots
+
+<table>
+  <tr>
+    <td><img src="screenshots/list_screen.png" width="250"/></td>
+    <td><img src="screenshots/details_rejected.png" width="250"/></td>
+    <td><img src="screenshots/details_passed.png" width="250"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Billing List</b><br/>Color-coded icons, currency indicators</td>
+    <td align="center"><b>Details - Rejected</b><br/>Red price for rejected status</td>
+    <td align="center"><b>Details - Passed</b><br/>Green price for passed status</td>
+  </tr>
+</table>
+
+### API Integration
+<img src="screenshots/api_logs.png" width="800"/>
+
+*Live API calls showing Retrofit + OkHttp integration with proper logging*
+
+### Key Features Shown:
+- ✅ **List View** - Color-coded source icons (green=Terminal, gray=Manual/POS)
+- ✅ **Status Colors** - Red text for Rejected, Green for Passed
+- ✅ **All Fields** - Complete billing information displayed
+- ✅ **Upload Button** - Visible for MasterCard entries
+- ✅ **Material Design 3** - Clean, modern UI
+- ✅ **API Integration** - Live data from server (200 OK responses in 17-49ms)
+
 ## Features
 
 ### Billing List
-- Shows all billing entries
+- Shows all billing entries with LazyColumn (efficient for 486 items)
 - Color-coded source icons (Terminal/POS/Manual)
 - Date formatted as dd-MM-yyyy HH:mm
-- Upload button for MasterCard
+- Upload button for MasterCard transactions
+- Currency icons (USD $, ILS ₪)
 
 ### Billing Details  
-- All transaction details
+- All 15+ transaction details
 - Status-colored prices (green=Passed, red=Rejected)
-- Delete with confirmation
+- Color-coded source indicators
+- Delete with confirmation dialog
+- Scrollable content
 
 ## Setup
 
