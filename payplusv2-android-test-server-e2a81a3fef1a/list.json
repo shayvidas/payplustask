@@ -1,0 +1,4862 @@
+[
+    {
+        "id": 5165,
+        "price": 25357.52885790945,
+        "created": 1592293845,
+        "entryNumber": 2,
+        "totalEntryCount": 17,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5166,
+        "price": 45916.539359276605,
+        "created": 1654757630,
+        "entryNumber": 8,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5167,
+        "price": 82575.50650172886,
+        "created": 1595265967,
+        "entryNumber": 9,
+        "totalEntryCount": 15,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5168,
+        "price": 47328.41432225921,
+        "created": 1604756688,
+        "entryNumber": 4,
+        "totalEntryCount": 18,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5169,
+        "price": 91040.43696304348,
+        "created": 1665881869,
+        "entryNumber": 4,
+        "totalEntryCount": 12,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5170,
+        "price": 67697.75998704942,
+        "created": 1651592946,
+        "entryNumber": 15,
+        "totalEntryCount": 16,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5171,
+        "price": 5791.662998343781,
+        "created": 1624234150,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5172,
+        "price": 87073.43983867223,
+        "created": 1598845131,
+        "entryNumber": 1,
+        "totalEntryCount": 6,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5173,
+        "price": 15822.58632807391,
+        "created": 1657075025,
+        "entryNumber": 5,
+        "totalEntryCount": 7,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5174,
+        "price": 6326.534201676998,
+        "created": 1659269296,
+        "entryNumber": 8,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5175,
+        "price": 42799.938585805976,
+        "created": 1638367647,
+        "entryNumber": 7,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5176,
+        "price": 78900.47120295977,
+        "created": 1593727088,
+        "entryNumber": 14,
+        "totalEntryCount": 19,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5177,
+        "price": 26105.36914218328,
+        "created": 1643632098,
+        "entryNumber": 11,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5178,
+        "price": 76105.47329111912,
+        "created": 1662487977,
+        "entryNumber": 11,
+        "totalEntryCount": 21,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5179,
+        "price": 69198.16439976716,
+        "created": 1645157742,
+        "entryNumber": 4,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5180,
+        "price": 3214.8645019640803,
+        "created": 1613860118,
+        "entryNumber": 18,
+        "totalEntryCount": 21,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5181,
+        "price": 58663.59229016101,
+        "created": 1650398020,
+        "entryNumber": 14,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5182,
+        "price": 31965.091100893074,
+        "created": 1624880115,
+        "entryNumber": 1,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5183,
+        "price": 13517.847042909094,
+        "created": 1592891458,
+        "entryNumber": 7,
+        "totalEntryCount": 19,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5184,
+        "price": 42283.00202500033,
+        "created": 1608358513,
+        "entryNumber": 6,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5185,
+        "price": 99129.80702569266,
+        "created": 1604871723,
+        "entryNumber": 10,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5186,
+        "price": 43424.39525438308,
+        "created": 1652861222,
+        "entryNumber": 1,
+        "totalEntryCount": 6,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5187,
+        "price": 81472.39097912179,
+        "created": 1628107396,
+        "entryNumber": 6,
+        "totalEntryCount": 21,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5188,
+        "price": 3271.8349364496457,
+        "created": 1640651345,
+        "entryNumber": 20,
+        "totalEntryCount": 21,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5189,
+        "price": 61836.353564434976,
+        "created": 1661391742,
+        "entryNumber": 3,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5190,
+        "price": 54006.56049209934,
+        "created": 1654865090,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5191,
+        "price": 93919.94722359246,
+        "created": 1600745234,
+        "entryNumber": 1,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5192,
+        "price": 47674.49094294429,
+        "created": 1607384654,
+        "entryNumber": 1,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5193,
+        "price": 42450.37377394018,
+        "created": 1603856099,
+        "entryNumber": 6,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5194,
+        "price": 23307.031364495888,
+        "created": 1628896977,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5195,
+        "price": 32460.802476212066,
+        "created": 1652638927,
+        "entryNumber": 1,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5196,
+        "price": 29186.02447903612,
+        "created": 1665566167,
+        "entryNumber": 2,
+        "totalEntryCount": 6,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5197,
+        "price": 41513.229186682045,
+        "created": 1620941933,
+        "entryNumber": 6,
+        "totalEntryCount": 7,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5198,
+        "price": 1568.0717680946016,
+        "created": 1610641085,
+        "entryNumber": 2,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5199,
+        "price": 18103.047008504876,
+        "created": 1639510383,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5200,
+        "price": 30737.407936623804,
+        "created": 1604589299,
+        "entryNumber": 14,
+        "totalEntryCount": 21,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5201,
+        "price": 63741.73849496943,
+        "created": 1648435039,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5202,
+        "price": 73535.09802947311,
+        "created": 1641102103,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5203,
+        "price": 50853.660545548846,
+        "created": 1588583940,
+        "entryNumber": 4,
+        "totalEntryCount": 8,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5204,
+        "price": 26238.087216710628,
+        "created": 1653204208,
+        "entryNumber": 8,
+        "totalEntryCount": 15,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5205,
+        "price": 76831.24949319469,
+        "created": 1680117340,
+        "entryNumber": 1,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5206,
+        "price": 79462.90888795152,
+        "created": 1636808103,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5207,
+        "price": 1105.9154037830858,
+        "created": 1656222479,
+        "entryNumber": 4,
+        "totalEntryCount": 10,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5208,
+        "price": 52772.2312507291,
+        "created": 1654644559,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5209,
+        "price": 6076.713743913155,
+        "created": 1629469596,
+        "entryNumber": 7,
+        "totalEntryCount": 10,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5210,
+        "price": 74637.30741124466,
+        "created": 1644968999,
+        "entryNumber": 8,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5211,
+        "price": 69785.79225416016,
+        "created": 1627805783,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5212,
+        "price": 36796.80651989647,
+        "created": 1657644464,
+        "entryNumber": 6,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5213,
+        "price": 11663.209820604943,
+        "created": 1597840043,
+        "entryNumber": 3,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5214,
+        "price": 51098.569195772,
+        "created": 1681356989,
+        "entryNumber": 4,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5215,
+        "price": 11991.572087910648,
+        "created": 1625536332,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5216,
+        "price": 31340.94893964081,
+        "created": 1656259931,
+        "entryNumber": 5,
+        "totalEntryCount": 19,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5217,
+        "price": 14743.654676095615,
+        "created": 1597068182,
+        "entryNumber": 7,
+        "totalEntryCount": 10,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5218,
+        "price": 25348.035046358036,
+        "created": 1607587815,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5219,
+        "price": 79600.30898165317,
+        "created": 1652315857,
+        "entryNumber": 7,
+        "totalEntryCount": 11,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5220,
+        "price": 95267.27590645687,
+        "created": 1629195947,
+        "entryNumber": 7,
+        "totalEntryCount": 15,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5221,
+        "price": 78295.4777973272,
+        "created": 1678362960,
+        "entryNumber": 6,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5222,
+        "price": 90952.99348107153,
+        "created": 1603798914,
+        "entryNumber": 14,
+        "totalEntryCount": 19,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5223,
+        "price": 54741.46038938268,
+        "created": 1593930033,
+        "entryNumber": 5,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5224,
+        "price": 44040.96064913182,
+        "created": 1623650536,
+        "entryNumber": 5,
+        "totalEntryCount": 16,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5225,
+        "price": 92617.74190971616,
+        "created": 1676569297,
+        "entryNumber": 4,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5226,
+        "price": 50416.32549070964,
+        "created": 1640847292,
+        "entryNumber": 1,
+        "totalEntryCount": 17,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5227,
+        "price": 12962.491986002264,
+        "created": 1644039961,
+        "entryNumber": 7,
+        "totalEntryCount": 18,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5228,
+        "price": 86739.47674171002,
+        "created": 1604786911,
+        "entryNumber": 5,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5229,
+        "price": 78345.5919152672,
+        "created": 1602458817,
+        "entryNumber": 6,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5230,
+        "price": 39942.6004192888,
+        "created": 1627735332,
+        "entryNumber": 1,
+        "totalEntryCount": 8,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5231,
+        "price": 18971.051376609485,
+        "created": 1602244977,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5232,
+        "price": 35214.286247850636,
+        "created": 1668158306,
+        "entryNumber": 6,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5233,
+        "price": 33206.567529057145,
+        "created": 1662272258,
+        "entryNumber": 11,
+        "totalEntryCount": 13,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5234,
+        "price": 29233.24597786575,
+        "created": 1596285778,
+        "entryNumber": 8,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5235,
+        "price": 30713.921742430815,
+        "created": 1677991739,
+        "entryNumber": 1,
+        "totalEntryCount": 4,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5236,
+        "price": 28797.159711473487,
+        "created": 1670583612,
+        "entryNumber": 15,
+        "totalEntryCount": 19,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5237,
+        "price": 99315.56202410618,
+        "created": 1644539833,
+        "entryNumber": 12,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5238,
+        "price": 62838.733925586595,
+        "created": 1602599994,
+        "entryNumber": 8,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5239,
+        "price": 35549.80939968857,
+        "created": 1592693526,
+        "entryNumber": 6,
+        "totalEntryCount": 10,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5240,
+        "price": 88472.42235236327,
+        "created": 1615597730,
+        "entryNumber": 2,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5241,
+        "price": 22648.554715927956,
+        "created": 1605204176,
+        "entryNumber": 7,
+        "totalEntryCount": 12,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5242,
+        "price": 22891.3640755904,
+        "created": 1677327453,
+        "entryNumber": 6,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5243,
+        "price": 92434.68103519826,
+        "created": 1676408355,
+        "entryNumber": 17,
+        "totalEntryCount": 19,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5244,
+        "price": 9241.079207923964,
+        "created": 1659184482,
+        "entryNumber": 12,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5245,
+        "price": 92823.77170454674,
+        "created": 1657552389,
+        "entryNumber": 2,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5246,
+        "price": 73770.57944182119,
+        "created": 1625128661,
+        "entryNumber": 4,
+        "totalEntryCount": 7,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5247,
+        "price": 62993.760652637764,
+        "created": 1617583379,
+        "entryNumber": 11,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5248,
+        "price": 48837.73886789032,
+        "created": 1672639623,
+        "entryNumber": 1,
+        "totalEntryCount": 7,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5249,
+        "price": 38294.47124826221,
+        "created": 1662130371,
+        "entryNumber": 6,
+        "totalEntryCount": 20,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5250,
+        "price": 24785.94360648188,
+        "created": 1630518525,
+        "entryNumber": 16,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5251,
+        "price": 82615.9558573908,
+        "created": 1657230234,
+        "entryNumber": 2,
+        "totalEntryCount": 3,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5252,
+        "price": 45627.52859169677,
+        "created": 1625286597,
+        "entryNumber": 8,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5253,
+        "price": 20609.789291283225,
+        "created": 1665641033,
+        "entryNumber": 4,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5254,
+        "price": 88200.27673074038,
+        "created": 1607909596,
+        "entryNumber": 5,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5255,
+        "price": 39099.04609416619,
+        "created": 1665207193,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5256,
+        "price": 90345.45982164482,
+        "created": 1633419960,
+        "entryNumber": 10,
+        "totalEntryCount": 15,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5257,
+        "price": 38953.25103322761,
+        "created": 1601225877,
+        "entryNumber": 3,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5258,
+        "price": 59123.33531101292,
+        "created": 1637046925,
+        "entryNumber": 3,
+        "totalEntryCount": 4,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5259,
+        "price": 81537.57950605667,
+        "created": 1681788446,
+        "entryNumber": 3,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5260,
+        "price": 91175.02892456876,
+        "created": 1668561159,
+        "entryNumber": 9,
+        "totalEntryCount": 15,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5261,
+        "price": 8431.6945275345,
+        "created": 1614806018,
+        "entryNumber": 3,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5262,
+        "price": 20787.483882351433,
+        "created": 1661653012,
+        "entryNumber": 12,
+        "totalEntryCount": 17,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5263,
+        "price": 84968.83950110624,
+        "created": 1610621598,
+        "entryNumber": 16,
+        "totalEntryCount": 19,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5264,
+        "price": 88848.38454488466,
+        "created": 1661106024,
+        "entryNumber": 5,
+        "totalEntryCount": 6,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5265,
+        "price": 54082.054207470144,
+        "created": 1678410727,
+        "entryNumber": 16,
+        "totalEntryCount": 19,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5266,
+        "price": 17480.812263891967,
+        "created": 1639639522,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5267,
+        "price": 21066.896072113384,
+        "created": 1675772979,
+        "entryNumber": 1,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5268,
+        "price": 39660.81798425174,
+        "created": 1674204819,
+        "entryNumber": 3,
+        "totalEntryCount": 5,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5269,
+        "price": 3681.565574586985,
+        "created": 1628784031,
+        "entryNumber": 6,
+        "totalEntryCount": 20,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5270,
+        "price": 48178.94562284547,
+        "created": 1598536783,
+        "entryNumber": 6,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5271,
+        "price": 42811.9172542995,
+        "created": 1605672294,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5272,
+        "price": 90104.88396176683,
+        "created": 1593212686,
+        "entryNumber": 12,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5273,
+        "price": 46144.22635918521,
+        "created": 1634746099,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5274,
+        "price": 63403.71754811124,
+        "created": 1651752662,
+        "entryNumber": 17,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5275,
+        "price": 56125.897288828935,
+        "created": 1623468623,
+        "entryNumber": 6,
+        "totalEntryCount": 15,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5276,
+        "price": 99728.03449454306,
+        "created": 1657412073,
+        "entryNumber": 2,
+        "totalEntryCount": 4,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5277,
+        "price": 76228.56985609901,
+        "created": 1598450953,
+        "entryNumber": 9,
+        "totalEntryCount": 14,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5278,
+        "price": 46976.471143214316,
+        "created": 1641496285,
+        "entryNumber": 8,
+        "totalEntryCount": 16,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5279,
+        "price": 63122.871874746656,
+        "created": 1636715935,
+        "entryNumber": 4,
+        "totalEntryCount": 8,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5280,
+        "price": 74060.5467498395,
+        "created": 1592102609,
+        "entryNumber": 5,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5281,
+        "price": 97343.02543184636,
+        "created": 1598388063,
+        "entryNumber": 5,
+        "totalEntryCount": 8,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5282,
+        "price": 23917.57858346103,
+        "created": 1625412190,
+        "entryNumber": 4,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5283,
+        "price": 54519.67290052567,
+        "created": 1590103236,
+        "entryNumber": 1,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5284,
+        "price": 43127.9128277462,
+        "created": 1659766071,
+        "entryNumber": 10,
+        "totalEntryCount": 12,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5285,
+        "price": 89594.77220220308,
+        "created": 1665460561,
+        "entryNumber": 1,
+        "totalEntryCount": 4,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5286,
+        "price": 55025.07544414303,
+        "created": 1638586329,
+        "entryNumber": 7,
+        "totalEntryCount": 17,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5287,
+        "price": 92245.03464104317,
+        "created": 1591057902,
+        "entryNumber": 4,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5288,
+        "price": 56860.50813621506,
+        "created": 1656839359,
+        "entryNumber": 4,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5289,
+        "price": 2825.03167696586,
+        "created": 1662545311,
+        "entryNumber": 10,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5290,
+        "price": 89589.71360624836,
+        "created": 1646669070,
+        "entryNumber": 8,
+        "totalEntryCount": 12,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5291,
+        "price": 77085.58312404221,
+        "created": 1679250079,
+        "entryNumber": 5,
+        "totalEntryCount": 6,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5292,
+        "price": 47515.00457622311,
+        "created": 1653697395,
+        "entryNumber": 1,
+        "totalEntryCount": 12,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5293,
+        "price": 73393.67957769176,
+        "created": 1620913944,
+        "entryNumber": 3,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5294,
+        "price": 35566.42456400973,
+        "created": 1670747777,
+        "entryNumber": 3,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5295,
+        "price": 89966.56945830361,
+        "created": 1678903917,
+        "entryNumber": 9,
+        "totalEntryCount": 16,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5296,
+        "price": 84316.95981825636,
+        "created": 1653328531,
+        "entryNumber": 3,
+        "totalEntryCount": 15,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5297,
+        "price": 55631.56314911971,
+        "created": 1635061492,
+        "entryNumber": 5,
+        "totalEntryCount": 20,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5298,
+        "price": 50895.1175877531,
+        "created": 1674645099,
+        "entryNumber": 7,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5299,
+        "price": 1860.928467092524,
+        "created": 1679233975,
+        "entryNumber": 3,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5300,
+        "price": 27411.516818080545,
+        "created": 1681505743,
+        "entryNumber": 4,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5301,
+        "price": 96163.09434998233,
+        "created": 1640193226,
+        "entryNumber": 6,
+        "totalEntryCount": 13,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5302,
+        "price": 77564.48159996922,
+        "created": 1628098298,
+        "entryNumber": 3,
+        "totalEntryCount": 8,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5303,
+        "price": 56416.06927204378,
+        "created": 1605724091,
+        "entryNumber": 11,
+        "totalEntryCount": 13,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5304,
+        "price": 64649.58764700068,
+        "created": 1599129984,
+        "entryNumber": 1,
+        "totalEntryCount": 7,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5305,
+        "price": 70116.53929445911,
+        "created": 1602609256,
+        "entryNumber": 1,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5306,
+        "price": 58696.02398746224,
+        "created": 1633841611,
+        "entryNumber": 2,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5307,
+        "price": 79739.50533548025,
+        "created": 1660376368,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5308,
+        "price": 31885.716678298166,
+        "created": 1655685377,
+        "entryNumber": 1,
+        "totalEntryCount": 18,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5309,
+        "price": 79495.89954436445,
+        "created": 1637379790,
+        "entryNumber": 11,
+        "totalEntryCount": 17,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5310,
+        "price": 30720.55498632709,
+        "created": 1615870816,
+        "entryNumber": 6,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5311,
+        "price": 84800.02389923327,
+        "created": 1641317866,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5312,
+        "price": 81348.24464161557,
+        "created": 1599016491,
+        "entryNumber": 3,
+        "totalEntryCount": 7,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5313,
+        "price": 1327.1802440970996,
+        "created": 1621501645,
+        "entryNumber": 8,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5314,
+        "price": 6847.342320496716,
+        "created": 1627658083,
+        "entryNumber": 4,
+        "totalEntryCount": 6,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5315,
+        "price": 91866.19310456199,
+        "created": 1612061662,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5316,
+        "price": 74512.82208569211,
+        "created": 1603872278,
+        "entryNumber": 12,
+        "totalEntryCount": 13,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5317,
+        "price": 18810.952163894195,
+        "created": 1626872865,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5318,
+        "price": 39776.13553625888,
+        "created": 1645977729,
+        "entryNumber": 7,
+        "totalEntryCount": 9,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5319,
+        "price": 67194.68830556021,
+        "created": 1637578709,
+        "entryNumber": 7,
+        "totalEntryCount": 21,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5320,
+        "price": 30549.251519348523,
+        "created": 1676269029,
+        "entryNumber": 4,
+        "totalEntryCount": 7,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5321,
+        "price": 55959.34983905577,
+        "created": 1602571893,
+        "entryNumber": 4,
+        "totalEntryCount": 13,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5322,
+        "price": 61178.11046471088,
+        "created": 1598799685,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5323,
+        "price": 42336.38094170471,
+        "created": 1633056439,
+        "entryNumber": 2,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5324,
+        "price": 92630.26873362069,
+        "created": 1616745122,
+        "entryNumber": 2,
+        "totalEntryCount": 3,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5325,
+        "price": 49435.50917028875,
+        "created": 1643130863,
+        "entryNumber": 1,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5326,
+        "price": 59353.33355201869,
+        "created": 1655011346,
+        "entryNumber": 3,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5327,
+        "price": 22872.693964187063,
+        "created": 1674720532,
+        "entryNumber": 4,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5328,
+        "price": 80566.96230993478,
+        "created": 1597362670,
+        "entryNumber": 7,
+        "totalEntryCount": 15,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5329,
+        "price": 64665.94976782132,
+        "created": 1633255002,
+        "entryNumber": 14,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5330,
+        "price": 76016.77284621228,
+        "created": 1681243744,
+        "entryNumber": 7,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5331,
+        "price": 12506.806727437446,
+        "created": 1636898516,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5332,
+        "price": 27366.575466158007,
+        "created": 1623733232,
+        "entryNumber": 2,
+        "totalEntryCount": 7,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5333,
+        "price": 60608.16836848146,
+        "created": 1657126183,
+        "entryNumber": 4,
+        "totalEntryCount": 5,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5334,
+        "price": 77276.8231570308,
+        "created": 1606559777,
+        "entryNumber": 3,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5335,
+        "price": 53631.54615279657,
+        "created": 1608686185,
+        "entryNumber": 4,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5336,
+        "price": 64879.70196711411,
+        "created": 1682282734,
+        "entryNumber": 4,
+        "totalEntryCount": 9,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5337,
+        "price": 71532.46657781329,
+        "created": 1617984902,
+        "entryNumber": 7,
+        "totalEntryCount": 18,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5338,
+        "price": 15454.951994237928,
+        "created": 1598614057,
+        "entryNumber": 6,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5339,
+        "price": 11602.474407063084,
+        "created": 1592336727,
+        "entryNumber": 1,
+        "totalEntryCount": 6,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5340,
+        "price": 71834.21389416928,
+        "created": 1609907414,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5341,
+        "price": 70861.53992212308,
+        "created": 1627991736,
+        "entryNumber": 8,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5342,
+        "price": 79964.36545111844,
+        "created": 1615716315,
+        "entryNumber": 3,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5343,
+        "price": 4122.27445610669,
+        "created": 1638018443,
+        "entryNumber": 3,
+        "totalEntryCount": 6,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5344,
+        "price": 94850.63196906299,
+        "created": 1621140984,
+        "entryNumber": 2,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5345,
+        "price": 98625.14401185191,
+        "created": 1681997505,
+        "entryNumber": 7,
+        "totalEntryCount": 11,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5346,
+        "price": 68926.83803604121,
+        "created": 1652042693,
+        "entryNumber": 2,
+        "totalEntryCount": 15,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5347,
+        "price": 27100.86409945847,
+        "created": 1601660693,
+        "entryNumber": 1,
+        "totalEntryCount": 4,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5348,
+        "price": 47061.01368177474,
+        "created": 1652716681,
+        "entryNumber": 14,
+        "totalEntryCount": 15,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5349,
+        "price": 33394.48886466074,
+        "created": 1629621125,
+        "entryNumber": 4,
+        "totalEntryCount": 7,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5350,
+        "price": 44534.21002733819,
+        "created": 1623014755,
+        "entryNumber": 3,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5351,
+        "price": 44521.24160406341,
+        "created": 1678421806,
+        "entryNumber": 2,
+        "totalEntryCount": 10,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5352,
+        "price": 89494.23660130083,
+        "created": 1666758927,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5353,
+        "price": 68632.67702872393,
+        "created": 1648882699,
+        "entryNumber": 3,
+        "totalEntryCount": 6,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5354,
+        "price": 10548.594112565403,
+        "created": 1600966379,
+        "entryNumber": 6,
+        "totalEntryCount": 9,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5355,
+        "price": 1079.6357022142154,
+        "created": 1669894352,
+        "entryNumber": 7,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5356,
+        "price": 71021.46394976188,
+        "created": 1634108742,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5357,
+        "price": 90269.56848171109,
+        "created": 1664955686,
+        "entryNumber": 8,
+        "totalEntryCount": 12,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5358,
+        "price": 69553.07228463233,
+        "created": 1651484013,
+        "entryNumber": 13,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5359,
+        "price": 94291.03575166338,
+        "created": 1671340660,
+        "entryNumber": 3,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5360,
+        "price": 67708.27984431264,
+        "created": 1674126231,
+        "entryNumber": 11,
+        "totalEntryCount": 18,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5361,
+        "price": 61072.35305730632,
+        "created": 1668255445,
+        "entryNumber": 6,
+        "totalEntryCount": 10,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5362,
+        "price": 93245.32572025878,
+        "created": 1658883962,
+        "entryNumber": 4,
+        "totalEntryCount": 21,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5363,
+        "price": 44171.1388667012,
+        "created": 1592482741,
+        "entryNumber": 8,
+        "totalEntryCount": 11,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5364,
+        "price": 55224.43076574383,
+        "created": 1641260757,
+        "entryNumber": 12,
+        "totalEntryCount": 15,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5365,
+        "price": 49711.753623035416,
+        "created": 1608034493,
+        "entryNumber": 5,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5366,
+        "price": 19161.03829511336,
+        "created": 1639384273,
+        "entryNumber": 12,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5367,
+        "price": 67133.16764054123,
+        "created": 1604070131,
+        "entryNumber": 1,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5368,
+        "price": 90293.79048309331,
+        "created": 1602914183,
+        "entryNumber": 3,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5369,
+        "price": 88240.26777504869,
+        "created": 1660812090,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5370,
+        "price": 82577.84620751433,
+        "created": 1631566112,
+        "entryNumber": 4,
+        "totalEntryCount": 8,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5371,
+        "price": 68123.4457738034,
+        "created": 1662831534,
+        "entryNumber": 4,
+        "totalEntryCount": 6,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5372,
+        "price": 52328.5247416546,
+        "created": 1681938324,
+        "entryNumber": 3,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5373,
+        "price": 75914.86102612596,
+        "created": 1676990418,
+        "entryNumber": 10,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5374,
+        "price": 5793.792030909363,
+        "created": 1609066542,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5375,
+        "price": 50864.27268077418,
+        "created": 1632998291,
+        "entryNumber": 2,
+        "totalEntryCount": 5,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5376,
+        "price": 29971.56723424082,
+        "created": 1633204919,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5377,
+        "price": 491.40399241027586,
+        "created": 1677129041,
+        "entryNumber": 1,
+        "totalEntryCount": 11,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5378,
+        "price": 764.0885409053312,
+        "created": 1638274939,
+        "entryNumber": 3,
+        "totalEntryCount": 5,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5379,
+        "price": 65448.429763957196,
+        "created": 1589868376,
+        "entryNumber": 8,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5380,
+        "price": 29427.040776675407,
+        "created": 1667871973,
+        "entryNumber": 7,
+        "totalEntryCount": 17,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5381,
+        "price": 84215.83605200988,
+        "created": 1629358633,
+        "entryNumber": 3,
+        "totalEntryCount": 19,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5382,
+        "price": 72236.70746679151,
+        "created": 1599864336,
+        "entryNumber": 9,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5383,
+        "price": 42909.13737231833,
+        "created": 1618311976,
+        "entryNumber": 14,
+        "totalEntryCount": 16,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5384,
+        "price": 86442.61112877152,
+        "created": 1680717240,
+        "entryNumber": 4,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5385,
+        "price": 58336.16148439408,
+        "created": 1633826452,
+        "entryNumber": 8,
+        "totalEntryCount": 10,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5386,
+        "price": 36881.09166351611,
+        "created": 1604021778,
+        "entryNumber": 3,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5387,
+        "price": 62566.77864649505,
+        "created": 1593907175,
+        "entryNumber": 4,
+        "totalEntryCount": 18,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5388,
+        "price": 44559.58207902426,
+        "created": 1600118161,
+        "entryNumber": 2,
+        "totalEntryCount": 4,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5389,
+        "price": 89516.26331145118,
+        "created": 1680356611,
+        "entryNumber": 7,
+        "totalEntryCount": 18,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5390,
+        "price": 39184.85593971742,
+        "created": 1598472769,
+        "entryNumber": 4,
+        "totalEntryCount": 5,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5391,
+        "price": 91800.92570249231,
+        "created": 1644966038,
+        "entryNumber": 10,
+        "totalEntryCount": 15,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5392,
+        "price": 8286.803102960233,
+        "created": 1631102219,
+        "entryNumber": 3,
+        "totalEntryCount": 12,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5393,
+        "price": 93437.03086936972,
+        "created": 1659907982,
+        "entryNumber": 2,
+        "totalEntryCount": 4,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5394,
+        "price": 74226.53674174465,
+        "created": 1594444352,
+        "entryNumber": 5,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5395,
+        "price": 65480.64418577977,
+        "created": 1647799161,
+        "entryNumber": 14,
+        "totalEntryCount": 18,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5396,
+        "price": 8847.97803624023,
+        "created": 1602275045,
+        "entryNumber": 7,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5397,
+        "price": 86325.55299987446,
+        "created": 1674570894,
+        "entryNumber": 5,
+        "totalEntryCount": 10,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5398,
+        "price": 44325.87620812462,
+        "created": 1604878303,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5399,
+        "price": 59442.52570222811,
+        "created": 1666209983,
+        "entryNumber": 16,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5400,
+        "price": 57784.7262721335,
+        "created": 1590486474,
+        "entryNumber": 1,
+        "totalEntryCount": 18,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5401,
+        "price": 26008.076098940222,
+        "created": 1642720801,
+        "entryNumber": 2,
+        "totalEntryCount": 3,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5402,
+        "price": 96543.74142688504,
+        "created": 1676499801,
+        "entryNumber": 3,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5403,
+        "price": 74036.5576881046,
+        "created": 1629509659,
+        "entryNumber": 3,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5404,
+        "price": 8602.011019210859,
+        "created": 1606078685,
+        "entryNumber": 16,
+        "totalEntryCount": 19,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5405,
+        "price": 75543.29179069803,
+        "created": 1622326024,
+        "entryNumber": 11,
+        "totalEntryCount": 12,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5406,
+        "price": 78788.10311426215,
+        "created": 1641367104,
+        "entryNumber": 8,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5407,
+        "price": 96941.9523918689,
+        "created": 1650559072,
+        "entryNumber": 2,
+        "totalEntryCount": 19,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5408,
+        "price": 67611.48209193471,
+        "created": 1617410202,
+        "entryNumber": 2,
+        "totalEntryCount": 18,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5409,
+        "price": 1246.2160863829647,
+        "created": 1654256372,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5410,
+        "price": 52245.260463075545,
+        "created": 1618343862,
+        "entryNumber": 6,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5411,
+        "price": 62317.422744683696,
+        "created": 1668552405,
+        "entryNumber": 2,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5412,
+        "price": 90939.17078072477,
+        "created": 1646665250,
+        "entryNumber": 3,
+        "totalEntryCount": 17,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5413,
+        "price": 97226.8560018029,
+        "created": 1668010581,
+        "entryNumber": 10,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5414,
+        "price": 2953.953241588677,
+        "created": 1680144548,
+        "entryNumber": 2,
+        "totalEntryCount": 8,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5415,
+        "price": 39774.454332549656,
+        "created": 1667313748,
+        "entryNumber": 10,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5416,
+        "price": 29659.830243268,
+        "created": 1674977387,
+        "entryNumber": 9,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5417,
+        "price": 25132.86034367701,
+        "created": 1675723620,
+        "entryNumber": 9,
+        "totalEntryCount": 10,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5418,
+        "price": 61101.62919249123,
+        "created": 1648849420,
+        "entryNumber": 5,
+        "totalEntryCount": 8,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5419,
+        "price": 62157.12373172209,
+        "created": 1648596184,
+        "entryNumber": 1,
+        "totalEntryCount": 7,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5420,
+        "price": 75840.75419254733,
+        "created": 1610087949,
+        "entryNumber": 2,
+        "totalEntryCount": 21,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5421,
+        "price": 10538.563586660679,
+        "created": 1614502664,
+        "entryNumber": 3,
+        "totalEntryCount": 7,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5422,
+        "price": 21158.11005505035,
+        "created": 1651732438,
+        "entryNumber": 3,
+        "totalEntryCount": 17,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5423,
+        "price": 80400.2900169323,
+        "created": 1590779270,
+        "entryNumber": 7,
+        "totalEntryCount": 15,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5424,
+        "price": 92919.94388241348,
+        "created": 1598848546,
+        "entryNumber": 3,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5425,
+        "price": 84475.31294223864,
+        "created": 1618598538,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5426,
+        "price": 19249.008034462262,
+        "created": 1666592363,
+        "entryNumber": 18,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5427,
+        "price": 48034.867653719004,
+        "created": 1659632494,
+        "entryNumber": 14,
+        "totalEntryCount": 21,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5428,
+        "price": 43344.97590791628,
+        "created": 1603710129,
+        "entryNumber": 2,
+        "totalEntryCount": 3,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5429,
+        "price": 1041.2542716750727,
+        "created": 1659335216,
+        "entryNumber": 5,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5430,
+        "price": 77520.3997524298,
+        "created": 1613072919,
+        "entryNumber": 3,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5431,
+        "price": 23433.80332787895,
+        "created": 1647861326,
+        "entryNumber": 8,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5432,
+        "price": 16685.563780253513,
+        "created": 1680858162,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5433,
+        "price": 50632.941633191855,
+        "created": 1605374001,
+        "entryNumber": 1,
+        "totalEntryCount": 4,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5434,
+        "price": 29769.015855505382,
+        "created": 1638793565,
+        "entryNumber": 9,
+        "totalEntryCount": 12,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5435,
+        "price": 4883.7305498466985,
+        "created": 1671026448,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5436,
+        "price": 92665.48540478195,
+        "created": 1664152603,
+        "entryNumber": 2,
+        "totalEntryCount": 7,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5437,
+        "price": 1927.4637207163248,
+        "created": 1659775833,
+        "entryNumber": 1,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5438,
+        "price": 62870.03453008935,
+        "created": 1670982554,
+        "entryNumber": 2,
+        "totalEntryCount": 8,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5439,
+        "price": 9333.195663397702,
+        "created": 1679510153,
+        "entryNumber": 4,
+        "totalEntryCount": 12,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5440,
+        "price": 85902.50049524468,
+        "created": 1660199174,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5441,
+        "price": 49678.279690118165,
+        "created": 1592830443,
+        "entryNumber": 5,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5442,
+        "price": 13325.038262435624,
+        "created": 1655355922,
+        "entryNumber": 8,
+        "totalEntryCount": 18,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5443,
+        "price": 59915.897821647806,
+        "created": 1639896429,
+        "entryNumber": 3,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5444,
+        "price": 70686.31156649828,
+        "created": 1676029809,
+        "entryNumber": 7,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5445,
+        "price": 63321.79217557403,
+        "created": 1616014151,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5446,
+        "price": 2747.890713061902,
+        "created": 1600125500,
+        "entryNumber": 4,
+        "totalEntryCount": 10,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5447,
+        "price": 42955.24566343005,
+        "created": 1595223403,
+        "entryNumber": 5,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5448,
+        "price": 91000.14521390169,
+        "created": 1662913108,
+        "entryNumber": 7,
+        "totalEntryCount": 11,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5449,
+        "price": 66783.31665644473,
+        "created": 1669459111,
+        "entryNumber": 10,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5450,
+        "price": 41494.47828553951,
+        "created": 1662573002,
+        "entryNumber": 4,
+        "totalEntryCount": 9,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5451,
+        "price": 51292.146881216926,
+        "created": 1590446058,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5452,
+        "price": 72718.51879055837,
+        "created": 1603647040,
+        "entryNumber": 1,
+        "totalEntryCount": 6,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5453,
+        "price": 65479.155704667806,
+        "created": 1633198792,
+        "entryNumber": 16,
+        "totalEntryCount": 20,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5454,
+        "price": 75312.22666116946,
+        "created": 1619646641,
+        "entryNumber": 8,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5455,
+        "price": 39804.03404405105,
+        "created": 1599532303,
+        "entryNumber": 4,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5456,
+        "price": 53623.76665467786,
+        "created": 1629412726,
+        "entryNumber": 12,
+        "totalEntryCount": 18,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5457,
+        "price": 40412.107886672544,
+        "created": 1661594744,
+        "entryNumber": 4,
+        "totalEntryCount": 19,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5458,
+        "price": 89403.09661934174,
+        "created": 1592213864,
+        "entryNumber": 1,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5459,
+        "price": 4551.1377842945885,
+        "created": 1629836018,
+        "entryNumber": 8,
+        "totalEntryCount": 21,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5460,
+        "price": 14943.138550472224,
+        "created": 1645447071,
+        "entryNumber": 3,
+        "totalEntryCount": 6,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5461,
+        "price": 7862.074390203776,
+        "created": 1679395444,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5462,
+        "price": 68376.72947807901,
+        "created": 1595662513,
+        "entryNumber": 7,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5463,
+        "price": 64634.523434888535,
+        "created": 1674835918,
+        "entryNumber": 1,
+        "totalEntryCount": 7,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5464,
+        "price": 32607.68770601988,
+        "created": 1642600834,
+        "entryNumber": 9,
+        "totalEntryCount": 20,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5465,
+        "price": 37614.46742897905,
+        "created": 1607869657,
+        "entryNumber": 2,
+        "totalEntryCount": 5,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5466,
+        "price": 87390.84637251834,
+        "created": 1605881330,
+        "entryNumber": 11,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5467,
+        "price": 12252.369950325718,
+        "created": 1680740478,
+        "entryNumber": 13,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5468,
+        "price": 68009.51928086001,
+        "created": 1595686404,
+        "entryNumber": 15,
+        "totalEntryCount": 19,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5469,
+        "price": 6139.410410546492,
+        "created": 1605989916,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5470,
+        "price": 1067.0312679118088,
+        "created": 1665485403,
+        "entryNumber": 10,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5471,
+        "price": 47237.93033382537,
+        "created": 1655596909,
+        "entryNumber": 6,
+        "totalEntryCount": 8,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5472,
+        "price": 23919.223040642784,
+        "created": 1668566146,
+        "entryNumber": 14,
+        "totalEntryCount": 18,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5473,
+        "price": 45178.178632446106,
+        "created": 1607568933,
+        "entryNumber": 8,
+        "totalEntryCount": 18,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5474,
+        "price": 93694.14867020493,
+        "created": 1612167139,
+        "entryNumber": 2,
+        "totalEntryCount": 8,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5475,
+        "price": 54287.75240079991,
+        "created": 1665292795,
+        "entryNumber": 12,
+        "totalEntryCount": 15,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5476,
+        "price": 16658.086809459593,
+        "created": 1668048152,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5477,
+        "price": 30766.916837197805,
+        "created": 1661687566,
+        "entryNumber": 12,
+        "totalEntryCount": 16,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5478,
+        "price": 53743.90034039971,
+        "created": 1605500023,
+        "entryNumber": 6,
+        "totalEntryCount": 14,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5479,
+        "price": 86056.76157625357,
+        "created": 1665923611,
+        "entryNumber": 2,
+        "totalEntryCount": 12,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5480,
+        "price": 14191.834375827462,
+        "created": 1629258155,
+        "entryNumber": 3,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5481,
+        "price": 87553.27284230532,
+        "created": 1645680384,
+        "entryNumber": 3,
+        "totalEntryCount": 11,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5482,
+        "price": 18516.796556866968,
+        "created": 1596759731,
+        "entryNumber": 1,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5483,
+        "price": 22194.56870973028,
+        "created": 1678685378,
+        "entryNumber": 18,
+        "totalEntryCount": 21,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5484,
+        "price": 52431.84822779748,
+        "created": 1669368757,
+        "entryNumber": 10,
+        "totalEntryCount": 11,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5485,
+        "price": 37505.9896336092,
+        "created": 1617420073,
+        "entryNumber": 15,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5486,
+        "price": 24750.480551476532,
+        "created": 1679513541,
+        "entryNumber": 17,
+        "totalEntryCount": 21,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5487,
+        "price": 91650.83266236464,
+        "created": 1659165842,
+        "entryNumber": 4,
+        "totalEntryCount": 8,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5488,
+        "price": 60521.60032045179,
+        "created": 1588703312,
+        "entryNumber": 2,
+        "totalEntryCount": 6,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5489,
+        "price": 63889.88486915136,
+        "created": 1648063663,
+        "entryNumber": 6,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5490,
+        "price": 5932.690675471949,
+        "created": 1613838876,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5491,
+        "price": 55485.10716984645,
+        "created": 1590824162,
+        "entryNumber": 2,
+        "totalEntryCount": 10,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5492,
+        "price": 14823.489590754007,
+        "created": 1607702348,
+        "entryNumber": 7,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5493,
+        "price": 64444.05114547559,
+        "created": 1677078897,
+        "entryNumber": 1,
+        "totalEntryCount": 8,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5494,
+        "price": 35501.13966603125,
+        "created": 1680337788,
+        "entryNumber": 2,
+        "totalEntryCount": 6,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5495,
+        "price": 48417.565437190744,
+        "created": 1636520154,
+        "entryNumber": 3,
+        "totalEntryCount": 21,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5496,
+        "price": 25261.834345587995,
+        "created": 1641084748,
+        "entryNumber": 10,
+        "totalEntryCount": 13,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5497,
+        "price": 95384.88390518751,
+        "created": 1597818595,
+        "entryNumber": 13,
+        "totalEntryCount": 21,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5498,
+        "price": 57056.96262928867,
+        "created": 1623740548,
+        "entryNumber": 3,
+        "totalEntryCount": 7,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5499,
+        "price": 26713.69680896094,
+        "created": 1679227758,
+        "entryNumber": 5,
+        "totalEntryCount": 14,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5500,
+        "price": 17704.375574615788,
+        "created": 1657887365,
+        "entryNumber": 3,
+        "totalEntryCount": 8,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5501,
+        "price": 69106.67366638522,
+        "created": 1651950000,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5502,
+        "price": 24455.44794535073,
+        "created": 1648832740,
+        "entryNumber": 12,
+        "totalEntryCount": 19,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5503,
+        "price": 59397.5932208827,
+        "created": 1665680806,
+        "entryNumber": 4,
+        "totalEntryCount": 5,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5504,
+        "price": 14179.773351819531,
+        "created": 1621358431,
+        "entryNumber": 9,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5505,
+        "price": 83592.68119355346,
+        "created": 1672722150,
+        "entryNumber": 1,
+        "totalEntryCount": 10,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5506,
+        "price": 21793.587987742416,
+        "created": 1607855010,
+        "entryNumber": 13,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5507,
+        "price": 26249.330163988456,
+        "created": 1590096248,
+        "entryNumber": 2,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5508,
+        "price": 22165.04811864604,
+        "created": 1613453094,
+        "entryNumber": 9,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5509,
+        "price": 75739.55006185654,
+        "created": 1602540834,
+        "entryNumber": 13,
+        "totalEntryCount": 19,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5510,
+        "price": 86758.63706741658,
+        "created": 1676306044,
+        "entryNumber": 7,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5511,
+        "price": 53882.776707874684,
+        "created": 1597259069,
+        "entryNumber": 4,
+        "totalEntryCount": 19,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5512,
+        "price": 69480.32949707133,
+        "created": 1591790353,
+        "entryNumber": 2,
+        "totalEntryCount": 14,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5513,
+        "price": 34167.14509794257,
+        "created": 1597906719,
+        "entryNumber": 5,
+        "totalEntryCount": 9,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5514,
+        "price": 1647.055799096254,
+        "created": 1677258120,
+        "entryNumber": 3,
+        "totalEntryCount": 5,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5515,
+        "price": 81977.96990696092,
+        "created": 1619517718,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5516,
+        "price": 73419.0182459927,
+        "created": 1624304603,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5517,
+        "price": 13063.998111188606,
+        "created": 1593022262,
+        "entryNumber": 17,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5518,
+        "price": 39161.54551009636,
+        "created": 1618876160,
+        "entryNumber": 6,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5519,
+        "price": 90522.52689479759,
+        "created": 1625510185,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5520,
+        "price": 86739.55347331963,
+        "created": 1617918189,
+        "entryNumber": 1,
+        "totalEntryCount": 8,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5521,
+        "price": 81808.53464690308,
+        "created": 1677532454,
+        "entryNumber": 2,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5522,
+        "price": 65278.813035351406,
+        "created": 1652456808,
+        "entryNumber": 9,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5523,
+        "price": 16690.061836532717,
+        "created": 1621561389,
+        "entryNumber": 10,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5524,
+        "price": 50413.82083506142,
+        "created": 1597265597,
+        "entryNumber": 3,
+        "totalEntryCount": 6,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5525,
+        "price": 32459.805840547542,
+        "created": 1625471378,
+        "entryNumber": 3,
+        "totalEntryCount": 12,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5526,
+        "price": 3018.853004884016,
+        "created": 1656824551,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5527,
+        "price": 18903.122278504,
+        "created": 1635641555,
+        "entryNumber": 4,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5528,
+        "price": 8708.17548070047,
+        "created": 1656067846,
+        "entryNumber": 3,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5529,
+        "price": 72405.7444886243,
+        "created": 1628458190,
+        "entryNumber": 15,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5530,
+        "price": 77481.9071417203,
+        "created": 1590830091,
+        "entryNumber": 8,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5531,
+        "price": 7950.20976926619,
+        "created": 1646436204,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5532,
+        "price": 56924.42659763783,
+        "created": 1615441659,
+        "entryNumber": 8,
+        "totalEntryCount": 13,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5533,
+        "price": 61958.17493545717,
+        "created": 1667344551,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5534,
+        "price": 26306.165131410147,
+        "created": 1622446541,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5535,
+        "price": 23358.36367615714,
+        "created": 1633074149,
+        "entryNumber": 9,
+        "totalEntryCount": 10,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5536,
+        "price": 375.7061551130409,
+        "created": 1612472280,
+        "entryNumber": 6,
+        "totalEntryCount": 7,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5537,
+        "price": 82081.68674160128,
+        "created": 1602710847,
+        "entryNumber": 6,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5538,
+        "price": 46099.99336524799,
+        "created": 1639487861,
+        "entryNumber": 10,
+        "totalEntryCount": 17,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5539,
+        "price": 8700.895924402948,
+        "created": 1610891265,
+        "entryNumber": 4,
+        "totalEntryCount": 8,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5540,
+        "price": 89042.53997198399,
+        "created": 1650658977,
+        "entryNumber": 4,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5541,
+        "price": 68311.82836682019,
+        "created": 1593723285,
+        "entryNumber": 4,
+        "totalEntryCount": 7,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5542,
+        "price": 21293.43246282359,
+        "created": 1642394257,
+        "entryNumber": 9,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5543,
+        "price": 43153.39659892603,
+        "created": 1606178777,
+        "entryNumber": 5,
+        "totalEntryCount": 18,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5544,
+        "price": 30482.471526004363,
+        "created": 1603060766,
+        "entryNumber": 11,
+        "totalEntryCount": 13,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5545,
+        "price": 19665.27797917147,
+        "created": 1621926469,
+        "entryNumber": 4,
+        "totalEntryCount": 8,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5546,
+        "price": 72153.30496261096,
+        "created": 1642615711,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5547,
+        "price": 30032.491359963882,
+        "created": 1664099126,
+        "entryNumber": 4,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5548,
+        "price": 37311.485446054125,
+        "created": 1607276818,
+        "entryNumber": 2,
+        "totalEntryCount": 3,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5549,
+        "price": 73600.74616690839,
+        "created": 1630425609,
+        "entryNumber": 2,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5550,
+        "price": 46556.334135856254,
+        "created": 1637954275,
+        "entryNumber": 7,
+        "totalEntryCount": 8,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5551,
+        "price": 39019.48269052671,
+        "created": 1647520189,
+        "entryNumber": 6,
+        "totalEntryCount": 17,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5552,
+        "price": 72751.25867708033,
+        "created": 1666875743,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5553,
+        "price": 66207.42229348981,
+        "created": 1665742594,
+        "entryNumber": 11,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5554,
+        "price": 99775.76908251681,
+        "created": 1664833582,
+        "entryNumber": 9,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5555,
+        "price": 40548.135680356085,
+        "created": 1678360661,
+        "entryNumber": 3,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5556,
+        "price": 1491.769555850547,
+        "created": 1590064338,
+        "entryNumber": 6,
+        "totalEntryCount": 12,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5557,
+        "price": 6562.146187860559,
+        "created": 1594083441,
+        "entryNumber": 1,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5558,
+        "price": 9703.362636239848,
+        "created": 1645818661,
+        "entryNumber": 3,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5559,
+        "price": 14251.334507416896,
+        "created": 1655058925,
+        "entryNumber": 2,
+        "totalEntryCount": 17,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5560,
+        "price": 42320.71570007629,
+        "created": 1671643752,
+        "entryNumber": 2,
+        "totalEntryCount": 12,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5561,
+        "price": 76206.54994067547,
+        "created": 1627604967,
+        "entryNumber": 4,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5562,
+        "price": 89349.53106332112,
+        "created": 1621975895,
+        "entryNumber": 2,
+        "totalEntryCount": 8,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5563,
+        "price": 64930.515409218926,
+        "created": 1666166033,
+        "entryNumber": 4,
+        "totalEntryCount": 18,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5564,
+        "price": 12841.174307773726,
+        "created": 1657488909,
+        "entryNumber": 1,
+        "totalEntryCount": 7,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5565,
+        "price": 66141.52825320339,
+        "created": 1656470598,
+        "entryNumber": 12,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5566,
+        "price": 87045.2189684211,
+        "created": 1678232701,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5567,
+        "price": 82117.66950514764,
+        "created": 1654666247,
+        "entryNumber": 5,
+        "totalEntryCount": 13,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5568,
+        "price": 90306.45313960184,
+        "created": 1647930225,
+        "entryNumber": 9,
+        "totalEntryCount": 19,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5569,
+        "price": 88311.74096426221,
+        "created": 1668984839,
+        "entryNumber": 4,
+        "totalEntryCount": 7,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5570,
+        "price": 88729.49563081311,
+        "created": 1641944458,
+        "entryNumber": 7,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5571,
+        "price": 8450.023451487272,
+        "created": 1592487488,
+        "entryNumber": 3,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5572,
+        "price": 11981.552518289809,
+        "created": 1598615457,
+        "entryNumber": 3,
+        "totalEntryCount": 16,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5573,
+        "price": 74442.77634418706,
+        "created": 1615406979,
+        "entryNumber": 9,
+        "totalEntryCount": 14,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5574,
+        "price": 86136.68963503848,
+        "created": 1597285507,
+        "entryNumber": 3,
+        "totalEntryCount": 4,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5575,
+        "price": 43101.507712772705,
+        "created": 1647247828,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5576,
+        "price": 3982.5847445096288,
+        "created": 1639617837,
+        "entryNumber": 1,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5577,
+        "price": 23246.942463015792,
+        "created": 1619171654,
+        "entryNumber": 6,
+        "totalEntryCount": 7,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5578,
+        "price": 82519.67304788785,
+        "created": 1644638689,
+        "entryNumber": 1,
+        "totalEntryCount": 8,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5579,
+        "price": 82515.12523636073,
+        "created": 1609345391,
+        "entryNumber": 4,
+        "totalEntryCount": 14,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5580,
+        "price": 60485.842709467375,
+        "created": 1635147464,
+        "entryNumber": 2,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5581,
+        "price": 9605.978930059884,
+        "created": 1616342648,
+        "entryNumber": 7,
+        "totalEntryCount": 21,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5582,
+        "price": 70156.88964788274,
+        "created": 1636508366,
+        "entryNumber": 2,
+        "totalEntryCount": 4,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5583,
+        "price": 84759.2117678111,
+        "created": 1655264099,
+        "entryNumber": 9,
+        "totalEntryCount": 21,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5584,
+        "price": 72427.29515573703,
+        "created": 1605765436,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5585,
+        "price": 64771.839107637265,
+        "created": 1632227629,
+        "entryNumber": 2,
+        "totalEntryCount": 4,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5586,
+        "price": 75701.17511791085,
+        "created": 1628689020,
+        "entryNumber": 7,
+        "totalEntryCount": 19,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5587,
+        "price": 66222.87799343481,
+        "created": 1596453924,
+        "entryNumber": 15,
+        "totalEntryCount": 20,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5588,
+        "price": 53893.741985418135,
+        "created": 1625816368,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5589,
+        "price": 67057.49637818827,
+        "created": 1677583734,
+        "entryNumber": 7,
+        "totalEntryCount": 19,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5590,
+        "price": 71975.27529973835,
+        "created": 1633568355,
+        "entryNumber": 1,
+        "totalEntryCount": 7,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5591,
+        "price": 79061.54107860452,
+        "created": 1663428072,
+        "entryNumber": 4,
+        "totalEntryCount": 9,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5592,
+        "price": 96893.40350356353,
+        "created": 1620883034,
+        "entryNumber": 2,
+        "totalEntryCount": 6,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5593,
+        "price": 7138.900138604697,
+        "created": 1588665593,
+        "entryNumber": 1,
+        "totalEntryCount": 4,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5594,
+        "price": 50227.04142155912,
+        "created": 1658914937,
+        "entryNumber": 5,
+        "totalEntryCount": 10,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5595,
+        "price": 45130.858260154186,
+        "created": 1597149673,
+        "entryNumber": 9,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5596,
+        "price": 47579.291644509314,
+        "created": 1673993026,
+        "entryNumber": 11,
+        "totalEntryCount": 14,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5597,
+        "price": 66818.66301768334,
+        "created": 1616703327,
+        "entryNumber": 4,
+        "totalEntryCount": 7,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5598,
+        "price": 28384.355773463103,
+        "created": 1664962140,
+        "entryNumber": 12,
+        "totalEntryCount": 19,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5599,
+        "price": 10143.641487410312,
+        "created": 1632177653,
+        "entryNumber": 2,
+        "totalEntryCount": 4,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5600,
+        "price": 85043.48767819353,
+        "created": 1606211673,
+        "entryNumber": 5,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5601,
+        "price": 49290.38715873523,
+        "created": 1609166654,
+        "entryNumber": 1,
+        "totalEntryCount": 4,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5602,
+        "price": 93897.11495490796,
+        "created": 1607060930,
+        "entryNumber": 5,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5603,
+        "price": 39596.87105879849,
+        "created": 1640129759,
+        "entryNumber": 2,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5604,
+        "price": 72974.8855647029,
+        "created": 1609110300,
+        "entryNumber": 12,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5605,
+        "price": 42768.01909025197,
+        "created": 1640184062,
+        "entryNumber": 9,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5606,
+        "price": 90574.83081128239,
+        "created": 1615480806,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5607,
+        "price": 68699.76499805985,
+        "created": 1594610376,
+        "entryNumber": 3,
+        "totalEntryCount": 13,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5608,
+        "price": 62808.327481686734,
+        "created": 1658479567,
+        "entryNumber": 9,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5609,
+        "price": 83362.05504963842,
+        "created": 1615611855,
+        "entryNumber": 4,
+        "totalEntryCount": 6,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5610,
+        "price": 15489.104426479653,
+        "created": 1682315175,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5611,
+        "price": 91993.74621130123,
+        "created": 1667648801,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5612,
+        "price": 74623.32984259236,
+        "created": 1616501486,
+        "entryNumber": 1,
+        "totalEntryCount": 5,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5613,
+        "price": 81007.27812803457,
+        "created": 1605933311,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5614,
+        "price": 99512.53749302318,
+        "created": 1613093467,
+        "entryNumber": 1,
+        "totalEntryCount": 2,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5615,
+        "price": 64055.61998947964,
+        "created": 1619773842,
+        "entryNumber": 3,
+        "totalEntryCount": 4,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5616,
+        "price": 91697.68256559066,
+        "created": 1608464125,
+        "entryNumber": 1,
+        "totalEntryCount": 1,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Max"
+    },
+    {
+        "id": 5617,
+        "price": 97200.54996030046,
+        "created": 1617089348,
+        "entryNumber": 8,
+        "totalEntryCount": 11,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5618,
+        "price": 24014.434522905354,
+        "created": 1630684922,
+        "entryNumber": 4,
+        "totalEntryCount": 8,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5619,
+        "price": 82059.19541433147,
+        "created": 1660816469,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5620,
+        "price": 39307.3669024967,
+        "created": 1598615810,
+        "entryNumber": 3,
+        "totalEntryCount": 16,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5621,
+        "price": 83833.3501337027,
+        "created": 1664420704,
+        "entryNumber": 4,
+        "totalEntryCount": 5,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5622,
+        "price": 54677.02849698714,
+        "created": 1665196082,
+        "entryNumber": 11,
+        "totalEntryCount": 17,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5623,
+        "price": 83425.98373763879,
+        "created": 1588836412,
+        "entryNumber": 7,
+        "totalEntryCount": 8,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5624,
+        "price": 37084.66733036214,
+        "created": 1596055755,
+        "entryNumber": 7,
+        "totalEntryCount": 19,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5625,
+        "price": 24026.904660471548,
+        "created": 1596590969,
+        "entryNumber": 8,
+        "totalEntryCount": 10,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5626,
+        "price": 35237.9702734185,
+        "created": 1597256976,
+        "entryNumber": 1,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5627,
+        "price": 29714.900392673237,
+        "created": 1638814231,
+        "entryNumber": 6,
+        "totalEntryCount": 10,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5628,
+        "price": 48847.94051747649,
+        "created": 1599700284,
+        "entryNumber": 6,
+        "totalEntryCount": 16,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5629,
+        "price": 85279.99939123851,
+        "created": 1627378383,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5630,
+        "price": 89705.51101538776,
+        "created": 1592345918,
+        "entryNumber": 4,
+        "totalEntryCount": 5,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5631,
+        "price": 13975.896610437494,
+        "created": 1620091230,
+        "entryNumber": 8,
+        "totalEntryCount": 18,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5632,
+        "price": 26161.031950165212,
+        "created": 1659581194,
+        "entryNumber": 14,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5633,
+        "price": 46511.81743307953,
+        "created": 1615136136,
+        "entryNumber": 3,
+        "totalEntryCount": 8,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Visa"
+    },
+    {
+        "id": 5634,
+        "price": 15258.837394331942,
+        "created": 1640617194,
+        "entryNumber": 8,
+        "totalEntryCount": 9,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5635,
+        "price": 89978.36254215069,
+        "created": 1648963696,
+        "entryNumber": 8,
+        "totalEntryCount": 18,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Max"
+    },
+    {
+        "id": 5636,
+        "price": 62006.16026912056,
+        "created": 1658288795,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5637,
+        "price": 65355.576571563404,
+        "created": 1638723013,
+        "entryNumber": 2,
+        "totalEntryCount": 7,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5638,
+        "price": 19920.076232519976,
+        "created": 1607305911,
+        "entryNumber": 1,
+        "totalEntryCount": 15,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5639,
+        "price": 82669.11732563951,
+        "created": 1636639844,
+        "entryNumber": 14,
+        "totalEntryCount": 20,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5640,
+        "price": 88457.36319207233,
+        "created": 1681388436,
+        "entryNumber": 10,
+        "totalEntryCount": 20,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5641,
+        "price": 56845.96466756792,
+        "created": 1646681292,
+        "entryNumber": 2,
+        "totalEntryCount": 16,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Meastro"
+    },
+    {
+        "id": 5642,
+        "price": 68013.17725110079,
+        "created": 1607520799,
+        "entryNumber": 2,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5643,
+        "price": 37130.88772249789,
+        "created": 1648097916,
+        "entryNumber": 8,
+        "totalEntryCount": 16,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "Isracard"
+    },
+    {
+        "id": 5644,
+        "price": 51045.939694036846,
+        "created": 1657903062,
+        "entryNumber": 1,
+        "totalEntryCount": 14,
+        "source": "Terminal",
+        "currencyCode": "ILS",
+        "cardType": "Discover"
+    },
+    {
+        "id": 5645,
+        "price": 9227.596328459109,
+        "created": 1612486833,
+        "entryNumber": 16,
+        "totalEntryCount": 18,
+        "source": "Terminal",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5646,
+        "price": 61762.181675279055,
+        "created": 1619635462,
+        "entryNumber": 4,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5647,
+        "price": 32773.49605895573,
+        "created": 1633261219,
+        "entryNumber": 8,
+        "totalEntryCount": 9,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "MasterCard"
+    },
+    {
+        "id": 5648,
+        "price": 56050.96185015312,
+        "created": 1630372258,
+        "entryNumber": 5,
+        "totalEntryCount": 11,
+        "source": "Manual",
+        "currencyCode": "USD",
+        "cardType": "Amex"
+    },
+    {
+        "id": 5649,
+        "price": 45234.21912104467,
+        "created": 1678281276,
+        "entryNumber": 1,
+        "totalEntryCount": 3,
+        "source": "Pos",
+        "currencyCode": "ILS",
+        "cardType": "Diners"
+    },
+    {
+        "id": 5650,
+        "price": 4851.261137670425,
+        "created": 1605669454,
+        "entryNumber": 4,
+        "totalEntryCount": 12,
+        "source": "Pos",
+        "currencyCode": "USD",
+        "cardType": "Discover"
+    }
+]

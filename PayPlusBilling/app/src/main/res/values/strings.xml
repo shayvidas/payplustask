@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PayPlus Billing</string>
+    
+    <!-- Screen Titles -->
+    <string name="billing_list_title">Billing Entries</string>
+    <string name="billing_details_title">Billing Details</string>
+    
+    <!-- List Screen -->
+    <string name="entry_number">Entry #%d</string>
+    <string name="upload">Upload</string>
+    
+    <!-- Details Screen -->
+    <string name="customer_name">Customer Name</string>
+    <string name="billing_status">Status</string>
+    <string name="payment_type">Payment Type</string>
+    <string name="card_number">Card Number</string>
+    <string name="card_type">Card Type</string>
+    <string name="issuer">Issuer</string>
+    <string name="payment_source">Payment Source</string>
+    <string name="terminal_name">Terminal Name</string>
+    <string name="total_paid">Total Paid</string>
+    <string name="remaining">Remaining</string>
+    <string name="approval_number">Approval Number</string>
+    <string name="voucher_number">Voucher Number</string>
+    <string name="delete">Delete</string>
+    <string name="delete_confirmation">Are you sure you want to delete this billing entry?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    
+    <!-- Status -->
+    <string name="status_passed">Passed</string>
+    <string name="status_rejected">Rejected</string>
+    
+    <!-- Sources -->
+    <string name="source_terminal">Terminal</string>
+    <string name="source_pos">POS</string>
+    <string name="source_manual">Manual</string>
+    
+    <!-- Errors -->
+    <string name="error_loading">Failed to load data</string>
+    <string name="error_deleting">Failed to delete entry</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="no_data">No billing entries found</string>
+</resources>
