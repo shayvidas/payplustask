@@ -21,9 +21,9 @@ Android app for managing billing entries. Built with Kotlin, Jetpack Compose, an
 
 <table>
   <tr>
-    <td><img src="screenshots/list_screen.png" width="250"/></td>
-    <td><img src="screenshots/details_rejected.png" width="250"/></td>
-    <td><img src="screenshots/details_passed.png" width="250"/></td>
+    <td><img src="PayPlusBilling/screenshots/list_screen.png" width="250"/></td>
+    <td><img src="PayPlusBilling/screenshots/details_rejected.png" width="250"/></td>
+    <td><img src="PayPlusBilling/screenshots/details_passed.png" width="250"/></td>
   </tr>
   <tr>
     <td align="center"><b>Billing List</b><br/>Color-coded icons, currency indicators</td>
@@ -33,7 +33,7 @@ Android app for managing billing entries. Built with Kotlin, Jetpack Compose, an
 </table>
 
 ### API Integration
-<img src="screenshots/api_logs.png" width="800"/>
+<img src="PayPlusBilling/screenshots/api_logs.png" width="800"/>
 
 *Live API calls showing Retrofit + OkHttp integration with proper logging*
 
