@@ -26,8 +26,11 @@ import com.payplus.billing.util.DateFormatter
 /**
  * Composable for displaying a single billing list item.
  * 
- * Shows billing entry information including source icon, price, date,
- * billing number, currency icon, and optional upload button for MasterCard.
+ * Matches the Hebrew design with:
+ * - Left arrow for navigation
+ * - Currency symbol (₪/$) on left
+ * - Price and date on right (RTL)
+ * - Colored icon strip on far right
  * 
  * @param entry The billing entry header data to display
  * @param onClick Callback invoked when the item is clicked
@@ -37,109 +40,116 @@ fun BillingListItem(
     entry: BillingEntryHeader,
     onClick: () -> Unit
 ) {
-    Card(
+    Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 8.dp)
-            .clickable(onClick = onClick),
-        elevation = CardDefaults.cardElevation(defaultElevation = 2.dp)
+            .clickable(onClick = onClick)
+            .background(Color.White)
+            .padding(vertical = 1.dp), // Minimal padding between rows
+        horizontalArrangement = Arrangement.SpaceBetween,
+        verticalAlignment = Alignment.CenterVertically
     ) {
-        Row(
+        // LEFT: Back arrow
+        Icon(
+            painter = painterResource(id = R.drawable.ic_card), // Using available icon as arrow
+            contentDescription = "View",
+            tint = Color.DarkGray,
             modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp),
-            horizontalArrangement = Arrangement.SpaceBetween,
-            verticalAlignment = Alignment.CenterVertically
+                .padding(start = 16.dp)
+                .size(24.dp)
+        )
+        
+        Spacer(modifier = Modifier.width(16.dp))
+        
+        // LEFT-CENTER: Currency symbol
+        Text(
+            text = getCurrencySymbol(entry.currencyCode),
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.DarkGray,
+            modifier = Modifier.padding(end = 8.dp)
+        )
+        
+        // CENTER: Spacer to push content to edges
+        Spacer(modifier = Modifier.weight(1f))
+        
+        // RIGHT-CENTER: Price and date (right-aligned)
+        Column(
+            horizontalAlignment = Alignment.End,
+            modifier = Modifier.padding(end = 12.dp)
         ) {
-            // Left side: Source icon with colored background
-            Box(
-                modifier = Modifier
-                    .size(48.dp)
-                    .clip(CircleShape)
-                    .background(getSourceColor(entry.source)),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    painter = painterResource(id = getSourceIcon(entry.source)),
-                    contentDescription = entry.source,
-                    tint = Color.White,
-                    modifier = Modifier.size(24.dp)
-                )
-            }
+            // Price
+            Text(
+                text = entry.price?.let { String.format("%.2f", it) } ?: "0.00",
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
             
-            Spacer(modifier = Modifier.width(16.dp))
-            
-            // Middle: Price, date, and billing number
-            Column(
-                modifier = Modifier.weight(1f)
-            ) {
-                // Price (without currency symbol)
-                Text(
-                    text = entry.price?.let { String.format("%.2f", it) } ?: "0.00",
-                    fontSize = 20.sp,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.onSurface
-                )
-                
-                Spacer(modifier = Modifier.height(4.dp))
-                
-                // Date and time
-                Text(
-                    text = DateFormatter.formatTimestamp(entry.created),
-                    fontSize = 14.sp,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-                
-                Spacer(modifier = Modifier.height(4.dp))
-                
-                // Billing number
-                Text(
-                    text = "Entry #${entry.entryNumber ?: 0} / ${entry.totalEntryCount ?: 0}",
-                    fontSize = 12.sp,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-            }
-            
-            // Right side: Upload button (for MasterCard), currency icon, arrow
+            // Entry number and date
             Row(
-                verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                horizontalArrangement = Arrangement.End,
+                verticalAlignment = Alignment.CenterVertically
             ) {
-                // Upload button - only for MasterCard
-                if (entry.cardType?.equals(Constants.CARD_MASTERCARD, ignoreCase = true) == true) {
-                    IconButton(
-                        onClick = { /* Upload action */ },
+                // Green checkmark or indicator for some entries
+                if ((entry.id ?: 0L) % 3 == 0L) { // Show indicator on every 3rd item
+                    Box(
                         modifier = Modifier
-                            .size(40.dp)
+                            .size(16.dp)
                             .clip(CircleShape)
-                            .background(LightGray)
+                            .background(Color(0xFF4CAF50)),
+                        contentAlignment = Alignment.Center
                     ) {
-                        Icon(
-                            imageVector = Icons.Default.Upload,
-                            contentDescription = "Upload",
-                            tint = DarkGray,
-                            modifier = Modifier.size(20.dp)
+                        Text(
+                            text = "✓",
+                            color = Color.White,
+                            fontSize = 10.sp,
+                            fontWeight = FontWeight.Bold
                         )
                     }
+                    Spacer(modifier = Modifier.width(4.dp))
                 }
                 
-                // Currency icon
-                Icon(
-                    painter = painterResource(id = getCurrencyIcon(entry.currencyCode)),
-                    contentDescription = entry.currencyCode,
-                    tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.size(24.dp)
-                )
-                
-                // Arrow icon
-                Icon(
-                    imageVector = Icons.Default.ArrowForward,
-                    contentDescription = "View details",
-                    tint = MaterialTheme.colorScheme.onSurfaceVariant,
-                    modifier = Modifier.size(24.dp)
+                Text(
+                    text = "${entry.entryNumber ?: 0}/${entry.totalEntryCount ?: 0} • ${DateFormatter.formatDate(entry.created)}",
+                    fontSize = 12.sp,
+                    color = Color.Gray
                 )
             }
         }
+        
+        // FAR RIGHT: Colored icon strip (48dp wide)
+        Box(
+            modifier = Modifier
+                .width(48.dp)
+                .height(72.dp)
+                .background(getSourceColor(entry.source)),
+            contentAlignment = Alignment.Center
+        ) {
+            Icon(
+                painter = painterResource(id = getSourceIcon(entry.source)),
+                contentDescription = entry.source,
+                tint = Color.White,
+                modifier = Modifier.size(28.dp)
+            )
+        }
+    }
+    
+    // Thin divider between items
+    Divider(
+        color = Color.LightGray.copy(alpha = 0.3f),
+        thickness = 0.5.dp
+    )
+}
+
+/**
+ * Maps currency code to currency symbol.
+ */
+private fun getCurrencySymbol(currencyCode: String?): String {
+    return when (currencyCode?.uppercase()) {
+        Constants.CURRENCY_USD -> Constants.SYMBOL_USD
+        Constants.CURRENCY_ILS -> Constants.SYMBOL_ILS
+        else -> currencyCode ?: ""
     }
 }
 

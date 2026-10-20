@@ -1,6 +1,10 @@
 package com.payplus.billing.di
 
+import com.payplus.billing.BuildConfig
 import com.payplus.billing.data.remote.BillingApiService
+import com.payplus.billing.data.remote.interceptors.RateLimitInterceptor
+import com.payplus.billing.data.remote.interceptors.RequestValidationInterceptor
+import com.payplus.billing.data.remote.interceptors.SecurityInterceptor
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -13,10 +17,14 @@ import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
 /**
- * Hilt module that provides network-related dependencies.
+ * Hilt module that provides network-related dependencies with security layers.
  * 
- * Configures Retrofit, OkHttp, and the API service for dependency injection.
- * Note: Use 10.0.2.2 for Android emulator to access localhost on host machine.
+ * Security enhancements:
+ * - Rate limiting to prevent API abuse
+ * - Request validation to prevent injection attacks
+ * - Security headers and response validation
+ * - Environment-specific configuration (debug/release)
+ * - Proper timeouts to prevent indefinite hangs
  */
 @Module
 @InstallIn(SingletonComponent::class)
@@ -25,29 +33,51 @@ object NetworkModule {
     /**
      * Base URL for the PayPlus Billing API.
      * 
+     * Security: Using BuildConfig for different environments (debug/release)
      * For Android Emulator: Use 10.0.2.2 (maps to host machine's localhost)
      * For Physical Device: Use your computer's local IP (e.g., 192.168.1.100)
      */
-    private const val BASE_URL = "http://10.0.2.2:8030/"
+    private val BASE_URL get() = BuildConfig.API_BASE_URL
     
     /**
-     * Provides a configured OkHttpClient with logging interceptor.
+     * Provides a configured OkHttpClient with security interceptors.
      * 
-     * @return Configured OkHttpClient instance
+     * Security layers added:
+     * 1. Rate limiting to prevent API abuse
+     * 2. Request validation to prevent injection attacks
+     * 3. Security headers and response validation
+     * 4. Logging (only in debug builds)
+     * 
+     * @return Configured OkHttpClient instance with security layers
      */
     @Provides
     @Singleton
     fun provideOkHttpClient(): OkHttpClient {
-        val loggingInterceptor = HttpLoggingInterceptor().apply {
-            level = HttpLoggingInterceptor.Level.BODY
+        val builder = OkHttpClient.Builder()
+            // Security Layer 1: Rate limiting (prevents DDoS/abuse)
+            .addInterceptor(RateLimitInterceptor())
+            // Security Layer 2: Input validation (prevents injection)
+            .addInterceptor(RequestValidationInterceptor())
+            // Security Layer 3: Security headers and response validation
+            .addInterceptor(SecurityInterceptor())
+            // Timeouts (security: prevent indefinite hangs)
+            .connectTimeout(15, TimeUnit.SECONDS)
+            .readTimeout(15, TimeUnit.SECONDS)
+            .writeTimeout(15, TimeUnit.SECONDS)
+            // Call timeout (overall request timeout)
+            .callTimeout(30, TimeUnit.SECONDS)
+            // Retry configuration
+            .retryOnConnectionFailure(true)
+        
+        // Add logging only in debug builds (don't leak data in production)
+        if (BuildConfig.DEBUG) {
+            val loggingInterceptor = HttpLoggingInterceptor().apply {
+                level = HttpLoggingInterceptor.Level.BODY
+            }
+            builder.addInterceptor(loggingInterceptor)
         }
         
-        return OkHttpClient.Builder()
-            .addInterceptor(loggingInterceptor)
-            .connectTimeout(30, TimeUnit.SECONDS)
-            .readTimeout(30, TimeUnit.SECONDS)
-            .writeTimeout(30, TimeUnit.SECONDS)
-            .build()
+        return builder.build()
     }
     
     /**

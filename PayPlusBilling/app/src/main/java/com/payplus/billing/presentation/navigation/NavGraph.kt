@@ -18,6 +18,9 @@ object NavigationRoutes {
     const val BILLING_LIST = "billing_list"
     const val BILLING_DETAILS = "billing_details/{billingId}"
     
+    // Result keys for navigation
+    const val DELETED_ID_KEY = "deleted_billing_id"
+    
     /**
      * Creates the billing details route with the provided billing ID.
      */
@@ -36,11 +39,17 @@ fun BillingNavGraph(navController: NavHostController) {
         startDestination = NavigationRoutes.BILLING_LIST
     ) {
         // Billing List Screen
-        composable(route = NavigationRoutes.BILLING_LIST) {
+        composable(route = NavigationRoutes.BILLING_LIST) { backStackEntry ->
+            // Get deleted ID from details screen if returning from delete
+            val deletedId = navController.currentBackStackEntry
+                ?.savedStateHandle
+                ?.get<Long>(NavigationRoutes.DELETED_ID_KEY)
+            
             BillingListScreen(
                 onBillingClick = { billingId ->
                     navController.navigate(NavigationRoutes.billingDetails(billingId))
-                }
+                },
+                deletedBillingId = deletedId
             )
         }
         
@@ -52,9 +61,17 @@ fun BillingNavGraph(navController: NavHostController) {
                     type = NavType.LongType
                 }
             )
-        ) {
+        ) { backStackEntry ->
+            val billingId = backStackEntry.arguments?.getLong("billingId") ?: 0L
+            
             BillingDetailsScreen(
-                onNavigateBack = {
+                onNavigateBack = { wasDeleted ->
+                    if (wasDeleted) {
+                        // Pass deleted ID back to list screen
+                        navController.previousBackStackEntry
+                            ?.savedStateHandle
+                            ?.set(NavigationRoutes.DELETED_ID_KEY, billingId)
+                    }
                     navController.popBackStack()
                 }
             )

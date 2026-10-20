@@ -5,6 +5,31 @@
 # For more details, see
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
+# ================================
+# SECURITY & OBFUSCATION RULES
+# ================================
+
+# Remove logging in release builds (security best practice)
+-assumenosideeffects class android.util.Log {
+    public static *** d(...);
+    public static *** v(...);
+    public static *** i(...);
+    public static *** w(...);
+    public static *** e(...);
+}
+
+# Remove debug and verbose logging from OkHttp
+-assumenosideeffects class okhttp3.internal.platform.Platform {
+    public static *** log(...);
+}
+
+# Obfuscate sensitive class names (makes reverse engineering harder)
+-repackageclasses 'o'
+
+# ================================
+# LIBRARY-SPECIFIC RULES
+# ================================
+
 # Retrofit
 -keepattributes Signature, InnerClasses, EnclosingMethod
 -keepattributes RuntimeVisibleAnnotations, RuntimeVisibleParameterAnnotations

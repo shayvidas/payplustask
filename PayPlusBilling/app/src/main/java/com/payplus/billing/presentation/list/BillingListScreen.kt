@@ -5,6 +5,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
@@ -17,21 +18,33 @@ import com.payplus.billing.R
 import com.payplus.billing.presentation.list.components.BillingListItem
 
 /**
- * Billing List Screen composable.
+ * Billing List Screen with PAGINATION.
  * 
- * Displays a list of billing entries with loading, success, and error states.
- * Uses MVVM pattern with ViewModel and StateFlow for state management.
+ * Banking Best Practice: Loads 20 items at a time
+ * - Better performance (not loading 500 items at once)
+ * - Better UX (faster initial load)
+ * - "Load More" button to fetch next page
  * 
- * @param onBillingClick Callback invoked when a billing entry is clicked, passing the billing ID
- * @param viewModel ViewModel for managing the screen state (injected by Hilt)
+ * @param onBillingClick Callback invoked when a billing entry is clicked
+ * @param viewModel ViewModel with pagination support
  */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun BillingListScreen(
     onBillingClick: (Long) -> Unit,
+    deletedBillingId: Long? = null,
     viewModel: BillingListViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsState()
+    
+    // Handle deleted item callback from details screen
+    LaunchedEffect(deletedBillingId) {
+        deletedBillingId?.let { id ->
+            if (id > 0) {
+                viewModel.onItemDeleted(id)
+            }
+        }
+    }
     
     Scaffold(
         topBar = {
@@ -58,9 +71,8 @@ fun BillingListScreen(
                 }
                 
                 is BillingListState.Success -> {
-                    // Success state - show list of billing entries
+                    // Success state - show list with pagination
                     if (currentState.billingEntries.isEmpty()) {
-                        // Empty state
                         Text(
                             text = stringResource(R.string.no_data),
                             modifier = Modifier.align(Alignment.Center),
@@ -68,18 +80,34 @@ fun BillingListScreen(
                             style = MaterialTheme.typography.bodyLarge
                         )
                     } else {
-                        LazyColumn(
-                            modifier = Modifier.fillMaxSize(),
-                            contentPadding = PaddingValues(vertical = 8.dp)
-                        ) {
-                            items(
-                                items = currentState.billingEntries,
-                                key = { it.id }
-                            ) { entry ->
-                                BillingListItem(
-                                    entry = entry,
-                                    onClick = { onBillingClick(entry.id) }
-                                )
+                        Column(modifier = Modifier.fillMaxSize()) {
+                            // List without card padding - flat design
+                            LazyColumn(
+                                modifier = Modifier.weight(1f)
+                            ) {
+                                items(
+                                    items = currentState.billingEntries,
+                                    key = { it.id ?: 0L }
+                                ) { entry ->
+                                    BillingListItem(
+                                        entry = entry,
+                                        onClick = { onBillingClick(entry.id ?: 0L) }
+                                    )
+                                }
+                                
+                                // Load more button
+                                if (viewModel.hasMore()) {
+                                    item {
+                                        Button(
+                                            onClick = { viewModel.loadNextPage() },
+                                            modifier = Modifier
+                                                .fillMaxWidth()
+                                                .padding(16.dp)
+                                        ) {
+                                            Text("Load More (${viewModel.getTotalCount() - viewModel.getLoadedCount()} remaining)")
+                                        }
+                                    }
+                                }
                             }
                         }
                     }

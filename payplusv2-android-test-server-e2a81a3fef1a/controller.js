@@ -35,8 +35,8 @@ class controller  {
             if (indexToDeleteDetails === -1) {
                 return res.send({ status: -1 })
             }
-            list.splice(indexToDeleteList)
-            details.splice(indexToDeleteDetails)
+            list.splice(indexToDeleteList, 1)
+            details.splice(indexToDeleteDetails, 1)
             await fs.writeFile("./list.json",JSON.stringify(list))
             await fs.writeFile("./details.json",JSON.stringify(details))
             return res.send({ status: 0 })

@@ -7,6 +7,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -16,6 +17,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
@@ -24,6 +26,7 @@ import com.payplus.billing.data.model.BillingEntryDetails
 import com.payplus.billing.presentation.theme.*
 import com.payplus.billing.util.Constants
 import com.payplus.billing.util.DateFormatter
+import com.payplus.billing.util.SecurityUtils
 
 /**
  * Billing Details Screen composable.
@@ -36,16 +39,16 @@ import com.payplus.billing.util.DateFormatter
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun BillingDetailsScreen(
-    onNavigateBack: () -> Unit,
+    onNavigateBack: (wasDeleted: Boolean) -> Unit,
     viewModel: BillingDetailsViewModel = hiltViewModel()
 ) {
     val state by viewModel.state.collectAsState()
     var showDeleteDialog by remember { mutableStateOf(false) }
     
-    // Handle deleted state - navigate back
+    // Handle deleted state - navigate back with deleted=true flag
     LaunchedEffect(state) {
         if (state is BillingDetailsState.Deleted) {
-            onNavigateBack()
+            onNavigateBack(true) // ← Notify deletion
         }
     }
     
@@ -54,7 +57,7 @@ fun BillingDetailsScreen(
             TopAppBar(
                 title = { Text(text = stringResource(R.string.billing_details_title)) },
                 navigationIcon = {
-                    IconButton(onClick = onNavigateBack) {
+                    IconButton(onClick = { onNavigateBack(false) }) { // ← Not deleted
                         Icon(
                             imageVector = Icons.Default.ArrowBack,
                             contentDescription = "Back"
@@ -155,189 +158,215 @@ private fun BillingDetailsContent(
             .verticalScroll(rememberScrollState())
             .padding(16.dp)
     ) {
-        // Header: Source icon and basic info
+        // Header with green card icon on right and price on left (RTL)
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween,
             verticalAlignment = Alignment.Top
         ) {
-            // Source indicator
-            Box(
-                modifier = Modifier
-                    .size(60.dp)
-                    .clip(CircleShape)
-                    .background(getSourceColor(details.source)),
-                contentAlignment = Alignment.Center
+            // Price with currency on left (RTL)
+            Column(
+                horizontalAlignment = Alignment.End // Right-aligned for Hebrew
             ) {
-                Icon(
-                    painter = painterResource(id = getSourceIcon(details.source)),
-                    contentDescription = details.source,
-                    tint = Color.White,
-                    modifier = Modifier.size(30.dp)
+                Text(
+                    text = "${getCurrencySymbol(details.currencyCode)}${details.price?.let { String.format("%.2f", it) } ?: "0.00"}",
+                    fontSize = 36.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color(0xFF4CAF50) // Green like screenshot
+                )
+                // Entry number and date below price - BOLD
+                Text(
+                    text = "${details.entryNumber ?: 0}/${details.totalEntryCount ?: 0} • ${DateFormatter.formatDate(details.created)}",
+                    fontSize = 14.sp,
+                    fontWeight = FontWeight.Bold, // ← MADE BOLD
+                    color = Color.Gray
                 )
             }
             
-            // Price with status-based color
+            // Green card icon box on right (RTL)
+            Box(
+                modifier = Modifier
+                    .size(100.dp)
+                    .background(
+                        color = Color(0xFF4CAF50),
+                        shape = MaterialTheme.shapes.medium
+                    ),
+                contentAlignment = Alignment.Center
+            ) {
+                Icon(
+                    painter = painterResource(id = R.drawable.ic_card),
+                    contentDescription = "Card",
+                    tint = Color.White,
+                    modifier = Modifier.size(50.dp)
+                )
+            }
+        }
+        
+        Spacer(modifier = Modifier.height(16.dp))
+        
+        // Customer name subtitle (in Hebrew) - RIGHT ALIGNED
+        Text(
+            text = details.issuer ?: "N/A",
+            fontSize = 16.sp,
+            color = Color.DarkGray,
+            modifier = Modifier.fillMaxWidth(),
+            textAlign = TextAlign.End // ← RIGHT ALIGNED
+        )
+        
+        Spacer(modifier = Modifier.height(24.dp))
+        
+        // All detail rows in Hebrew with RTL layout
+        // STATUS with color coding - ONLY the value text
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(vertical = 6.dp),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            // Status value with color
+            val statusText = when(details.status?.lowercase()) {
+                "passed" -> "אושר"
+                "rejected" -> "נדחה"
+                else -> details.status ?: "לא ידוע"
+            }
+            val statusColor = when(details.status?.lowercase()) {
+                "passed" -> Color(0xFF4CAF50)  // Green
+                "rejected" -> Color(0xFFE53935) // Red
+                else -> Color.Gray
+            }
+            
             Text(
-                text = details.price?.let { String.format("%.2f", it) } ?: "0.00",
-                fontSize = 32.sp,
+                text = statusText,
+                fontSize = 14.sp,
                 fontWeight = FontWeight.Bold,
-                color = getStatusColor(details.status)
+                color = statusColor, // ← Only this text is colored
+                textAlign = TextAlign.Start
+            )
+            
+            // Label (normal gray)
+            Text(
+                text = "סטטוס:",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Normal,
+                color = Color.DarkGray,
+                textAlign = TextAlign.End
             )
         }
         
-        Spacer(modifier = Modifier.height(24.dp))
-        
-        // Date and Entry Number
-        DetailRow(
-            label = "Date & Time",
-            value = DateFormatter.formatTimestamp(details.created)
+        DetailRowHebrew(
+            label = "סוג תשלום:",
+            value = "זיכוי"
         )
         
-        DetailRow(
-            label = "Entry Number",
-            value = "Entry #${details.entryNumber ?: 0} of ${details.totalEntryCount ?: 0}"
+        DetailRowHebrew(
+            label = "מס. כרטיס:",
+            value = SecurityUtils.maskCardNumber(details.cardNumber)
         )
         
-        Divider(modifier = Modifier.padding(vertical = 16.dp))
-        
-        // Billing Information
-        Text(
-            text = "Billing Information",
-            fontSize = 18.sp,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(bottom = 12.dp)
+        DetailRowHebrew(
+            label = "סוג כרטיס:",
+            value = details.cardType ?: "לא ידוע"
         )
         
-        DetailRow(
-            label = stringResource(R.string.billing_status),
-            value = details.status ?: "Unknown"
+        DetailRowHebrew(
+            label = "חברת סליקה:",
+            value = details.issuer ?: "לא ידוע"
         )
         
-        // Customer name - doesn't exist in API, show N/A
-        DetailRow(
-            label = "Customer Name",
-            value = "N/A"
+        DetailRowHebrew(
+            label = "מקור:",
+            value = when(details.source?.lowercase()) {
+                "terminal" -> "מסוף"
+                "pos" -> "POS"
+                "manual" -> "ידני"
+                else -> details.source ?: "לא ידוע"
+            }
         )
         
-        DetailRow(
-            label = "Payment Type",
-            value = "Card Payment"
-        )
-        
-        Divider(modifier = Modifier.padding(vertical = 16.dp))
-        
-        // Card Information
-        Text(
-            text = "Card Information",
-            fontSize = 18.sp,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(bottom = 12.dp)
-        )
-        
-        DetailRow(
-            label = stringResource(R.string.card_number),
-            value = details.cardNumber ?: "N/A"
-        )
-        
-        DetailRow(
-            label = stringResource(R.string.card_type),
-            value = details.cardType ?: "Unknown"
-        )
-        
-        DetailRow(
-            label = stringResource(R.string.issuer),
-            value = details.issuer ?: "Unknown"
-        )
-        
-        Divider(modifier = Modifier.padding(vertical = 16.dp))
-        
-        // Payment Information
-        Text(
-            text = "Payment Information",
-            fontSize = 18.sp,
-            fontWeight = FontWeight.Bold,
-            modifier = Modifier.padding(bottom = 12.dp)
-        )
-        
-        DetailRow(
-            label = stringResource(R.string.payment_source),
-            value = details.source ?: "Unknown"
-        )
-        
-        DetailRow(
-            label = stringResource(R.string.terminal_name),
+        DetailRowHebrew(
+            label = "שם מסוף:",
             value = details.terminalName ?: "N/A"
         )
         
-        DetailRow(
-            label = stringResource(R.string.total_paid),
+        Spacer(modifier = Modifier.height(8.dp))
+        
+        DetailRowHebrew(
+            label = "סכום שחוייב:",
             value = "${getCurrencySymbol(details.currencyCode)}${details.amountPaid?.let { String.format("%.2f", it) } ?: "0.00"}"
         )
         
-        // Calculate remaining amount safely using helper method
         val remaining = details.getRemainingAmount()
-        DetailRow(
-            label = stringResource(R.string.remaining),
+        DetailRowHebrew(
+            label = "סכום נותר לחיוב:",
             value = "${getCurrencySymbol(details.currencyCode)}${String.format("%.2f", remaining)}"
         )
         
-        DetailRow(
-            label = stringResource(R.string.approval_number),
+        DetailRowHebrew(
+            label = "מס. אישור:",
             value = details.approvalNumber ?: "N/A"
         )
         
-        DetailRow(
-            label = "Voucher Number",
+        DetailRowHebrew(
+            label = "מס. רשומה:",
             value = details.voucherNumber ?: "N/A"
         )
         
-        Spacer(modifier = Modifier.height(24.dp))
+        Spacer(modifier = Modifier.height(32.dp))
         
-        // Delete Button
-        Button(
-            onClick = onDeleteClick,
+        // Delete Button with TRASH icon (centered)
+        Box(
             modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = MaterialTheme.colorScheme.error
-            ),
-            enabled = !isDeleting
+            contentAlignment = Alignment.Center
         ) {
-            if (isDeleting) {
-                CircularProgressIndicator(
-                    modifier = Modifier.size(20.dp),
-                    color = MaterialTheme.colorScheme.onError
-                )
-            } else {
-                Text(text = stringResource(R.string.delete))
+            FloatingActionButton(
+                onClick = onDeleteClick,
+                containerColor = Color(0xFFE91E63), // Pink like screenshot
+                modifier = Modifier.size(64.dp)
+            ) {
+                if (isDeleting) {
+                    CircularProgressIndicator(
+                        modifier = Modifier.size(24.dp),
+                        color = Color.White
+                    )
+                } else {
+                    // TRASH CAN ICON - using Material Icons
+                    Icon(
+                        imageVector = Icons.Default.Delete,
+                        contentDescription = "מחק",
+                        tint = Color.White,
+                        modifier = Modifier.size(32.dp)
+                    )
+                }
             }
         }
     }
 }
 
 /**
- * Reusable composable for displaying a label-value pair.
+ * Hebrew RTL detail row - label on right, value on left
  */
 @Composable
-private fun DetailRow(label: String, value: String) {
+private fun DetailRowHebrew(label: String, value: String) {
     Row(
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 6.dp),
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
-        Text(
-            text = label,
-            fontSize = 14.sp,
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-            modifier = Modifier.weight(1f)
-        )
+        // Value on left (lighter color)
         Text(
             text = value,
             fontSize = 14.sp,
-            fontWeight = FontWeight.Medium,
-            color = MaterialTheme.colorScheme.onSurface,
-            modifier = Modifier.weight(1f)
+            color = Color.Gray,
+            textAlign = TextAlign.Start
+        )
+        // Label on right (darker, for Hebrew RTL)
+        Text(
+            text = label,
+            fontSize = 14.sp,
+            fontWeight = FontWeight.Normal,
+            color = Color.DarkGray,
+            textAlign = TextAlign.End
         )
     }
 }

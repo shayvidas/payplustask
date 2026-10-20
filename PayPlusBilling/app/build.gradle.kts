@@ -24,11 +24,28 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            // Enable code shrinking, obfuscation, and optimization
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            
+            // Security: Disable debugging in release builds
+            isDebuggable = false
+            
+            // Build config fields for API security
+            buildConfigField("String", "API_BASE_URL", "\"http://10.0.2.2:8030/\"")
+        }
+        
+        debug {
+            isMinifyEnabled = false
+            isDebuggable = true
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-debug"
+            
+            buildConfigField("String", "API_BASE_URL", "\"http://10.0.2.2:8030/\"")
         }
     }
     
@@ -43,6 +60,7 @@ android {
     
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     
     composeOptions {
@@ -94,6 +112,9 @@ dependencies {
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    
+    // Biometric Authentication (Banking Security)
+    implementation("androidx.biometric:biometric:1.2.0-alpha05")
 
     // Testing
     testImplementation("junit:junit:4.13.2")
