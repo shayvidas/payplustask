@@ -1,0 +1,36 @@
+# PayPlus Android Developer Test - COMPLETE REQUIREMENTS
+
+## List Screen Requirements:
+1. Icon indicating billing source with matching background color
+   - Terminal: Green #34AA53
+   - Pos: #80B918
+   - Manual: #4F5860
+2. Price (without currency symbol)
+3. Date time (dd-MM-yyyy HH:mm)
+4. Billing number indicator
+5. Upload button (circular) - ONLY for MasterCard entries
+6. Currency icon
+7. Arrow icon
+
+## Details Screen Requirements:
+1. Billing source indicator with matching color
+2. Price (green if Passed, red if Rejected)
+3. Date time indicator
+4. Billing number indicator
+5. Customer name
+6. Billing status
+7. Payment type
+8. Card number
+9. Card type
+10. Issuer
+11. Payment source
+12. Terminal name
+13. Total paid price (with currency symbol)
+14. Remaining price (with currency symbol)
+15. Approval number
+16. Voucher number (mentioned in BillingEntryDetails)
+
+## API Endpoints:
+POST /payment/billing/entry/headers
+POST /paymPOST /paymPOST /paymPOST /paymPOST /paymPOST /paymPOST /paymPOST /paymPOST /paymPOST /payouPOST /paymPOST /paymPOST /paymPOST /paymPOST /paymPrce manPOST /paymPOST /paymPOST /pF5860
+Dark gray: #E3E6E9
