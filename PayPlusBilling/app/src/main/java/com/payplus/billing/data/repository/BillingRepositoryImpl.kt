@@ -24,13 +24,25 @@ class BillingRepositoryImpl @Inject constructor(
     
     /**
      * Fetches all billing entry headers from the API.
+     * Filters out entries with missing critical fields (id, price, created).
      * 
-     * @return Result.success with list of headers, or Result.failure on error
+     * @return Result.success with list of valid headers, or Result.failure on error
      */
     override suspend fun getBillingHeaders(): Result<List<BillingEntryHeader>> {
         return try {
             val response = apiService.getBillingHeaders(BillingListRequest())
-            Result.success(response.headers)
+            val headers = response.headers ?: emptyList()
+            
+            // Filter out entries with missing critical fields for safety
+            val validHeaders = headers.filter { header ->
+                header.id != null && 
+                header.price != null && 
+                header.created != null &&
+                header.entryNumber != null &&
+                header.totalEntryCount != null
+            }
+            
+            Result.success(validHeaders)
         } catch (e: Exception) {
             Result.failure(e)
         }
@@ -38,16 +50,21 @@ class BillingRepositoryImpl @Inject constructor(
     
     /**
      * Fetches detailed information for a specific billing entry.
+     * Validates that all critical fields exist before returning.
      * 
      * @param billingId The unique identifier of the billing entry
-     * @return Result.success with details, or Result.failure on error
+     * @return Result.success with details, or Result.failure on error/missing data
      */
     override suspend fun getBillingDetails(billingId: Long): Result<BillingEntryDetails> {
         return try {
             val response = apiService.getBillingDetails(BillingEntryRequest(billingId))
-            response.details?.let {
-                Result.success(it)
-            } ?: Result.failure(Exception("Billing details not found"))
+            val details = response.details
+            
+            when {
+                details == null -> Result.failure(Exception("Billing details not found"))
+                details.id == null -> Result.failure(Exception("Invalid billing entry: missing ID"))
+                else -> Result.success(details)
+            }
         } catch (e: Exception) {
             Result.failure(e)
         }

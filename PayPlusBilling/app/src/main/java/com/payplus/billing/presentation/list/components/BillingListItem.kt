@@ -75,7 +75,7 @@ fun BillingListItem(
             ) {
                 // Price (without currency symbol)
                 Text(
-                    text = String.format("%.2f", entry.price),
+                    text = entry.price?.let { String.format("%.2f", it) } ?: "0.00",
                     fontSize = 20.sp,
                     fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onSurface
@@ -94,7 +94,7 @@ fun BillingListItem(
                 
                 // Billing number
                 Text(
-                    text = "Entry #${entry.entryNumber}",
+                    text = "Entry #${entry.entryNumber ?: 0} / ${entry.totalEntryCount ?: 0}",
                     fontSize = 12.sp,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -106,7 +106,7 @@ fun BillingListItem(
                 horizontalArrangement = Arrangement.spacedBy(8.dp)
             ) {
                 // Upload button - only for MasterCard
-                if (entry.cardType.equals(Constants.CARD_MASTERCARD, ignoreCase = true)) {
+                if (entry.cardType?.equals(Constants.CARD_MASTERCARD, ignoreCase = true) == true) {
                     IconButton(
                         onClick = { /* Upload action */ },
                         modifier = Modifier
@@ -145,9 +145,10 @@ fun BillingListItem(
 
 /**
  * Maps billing source to corresponding color.
+ * Handles null/unknown sources safely.
  */
-private fun getSourceColor(source: String): Color {
-    return when (source.lowercase()) {
+private fun getSourceColor(source: String?): Color {
+    return when (source?.lowercase()) {
         Constants.SOURCE_TERMINAL.lowercase() -> TerminalGreen
         Constants.SOURCE_POS.lowercase() -> PosGreen
         Constants.SOURCE_MANUAL.lowercase() -> ManualGray
@@ -157,9 +158,10 @@ private fun getSourceColor(source: String): Color {
 
 /**
  * Maps billing source to corresponding icon resource.
+ * Handles null/unknown sources safely.
  */
-private fun getSourceIcon(source: String): Int {
-    return when (source.lowercase()) {
+private fun getSourceIcon(source: String?): Int {
+    return when (source?.lowercase()) {
         Constants.SOURCE_TERMINAL.lowercase() -> R.drawable.ic_attendant
         Constants.SOURCE_POS.lowercase() -> R.drawable.ic_pos
         Constants.SOURCE_MANUAL.lowercase() -> R.drawable.ic_card
@@ -169,9 +171,10 @@ private fun getSourceIcon(source: String): Int {
 
 /**
  * Maps currency code to corresponding icon resource.
+ * Handles null/unknown currencies safely.
  */
-private fun getCurrencyIcon(currencyCode: String): Int {
-    return when (currencyCode.uppercase()) {
+private fun getCurrencyIcon(currencyCode: String?): Int {
+    return when (currencyCode?.uppercase()) {
         Constants.CURRENCY_USD -> R.drawable.ic_dollar
         Constants.CURRENCY_ILS -> R.drawable.ic_ils
         else -> R.drawable.ic_dollar

@@ -21,16 +21,19 @@ object DateFormatter {
     private val dateFormat = SimpleDateFormat(DATE_FORMAT_PATTERN, Locale.getDefault())
     
     /**
-     * Formats a Unix timestamp (milliseconds) into a human-readable date string.
+     * Formats a Unix timestamp (SECONDS) into a human-readable date string.
+     * API returns timestamps in seconds, not milliseconds!
      * 
-     * @param timestamp Unix timestamp in milliseconds
+     * @param timestampSeconds Unix timestamp in SECONDS
      * @return Formatted date string in the format "dd-MM-yyyy HH:mm"
      * 
-     * Example: 1729351200000L -> "19-10-2026 15:30"
+     * Example: 1592293845L -> "16-06-2020 10:50"
      */
-    fun formatTimestamp(timestamp: Long): String {
+    fun formatTimestamp(timestampSeconds: Long?): String {
+        if (timestampSeconds == null) return "N/A"
         return try {
-            dateFormat.format(Date(timestamp))
+            // Convert seconds to milliseconds for Date constructor
+            dateFormat.format(Date(timestampSeconds * 1000L))
         } catch (e: Exception) {
             "Invalid date"
         }

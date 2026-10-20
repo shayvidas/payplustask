@@ -179,7 +179,7 @@ private fun BillingDetailsContent(
             
             // Price with status-based color
             Text(
-                text = String.format("%.2f", details.price),
+                text = details.price?.let { String.format("%.2f", it) } ?: "0.00",
                 fontSize = 32.sp,
                 fontWeight = FontWeight.Bold,
                 color = getStatusColor(details.status)
@@ -195,8 +195,8 @@ private fun BillingDetailsContent(
         )
         
         DetailRow(
-            label = stringResource(R.string.entry_number, details.entryNumber),
-            value = "Entry #${details.entryNumber} of ${details.totalEntryCount}"
+            label = "Entry Number",
+            value = "Entry #${details.entryNumber ?: 0} of ${details.totalEntryCount ?: 0}"
         )
         
         Divider(modifier = Modifier.padding(vertical = 16.dp))
@@ -211,11 +211,17 @@ private fun BillingDetailsContent(
         
         DetailRow(
             label = stringResource(R.string.billing_status),
-            value = details.status
+            value = details.status ?: "Unknown"
+        )
+        
+        // Customer name - doesn't exist in API, show N/A
+        DetailRow(
+            label = "Customer Name",
+            value = "N/A"
         )
         
         DetailRow(
-            label = stringResource(R.string.payment_type),
+            label = "Payment Type",
             value = "Card Payment"
         )
         
@@ -231,17 +237,17 @@ private fun BillingDetailsContent(
         
         DetailRow(
             label = stringResource(R.string.card_number),
-            value = details.cardNumber
+            value = details.cardNumber ?: "N/A"
         )
         
         DetailRow(
             label = stringResource(R.string.card_type),
-            value = details.cardType
+            value = details.cardType ?: "Unknown"
         )
         
         DetailRow(
             label = stringResource(R.string.issuer),
-            value = details.issuer
+            value = details.issuer ?: "Unknown"
         )
         
         Divider(modifier = Modifier.padding(vertical = 16.dp))
@@ -256,20 +262,21 @@ private fun BillingDetailsContent(
         
         DetailRow(
             label = stringResource(R.string.payment_source),
-            value = details.source
+            value = details.source ?: "Unknown"
         )
         
         DetailRow(
             label = stringResource(R.string.terminal_name),
-            value = details.terminalName
+            value = details.terminalName ?: "N/A"
         )
         
         DetailRow(
             label = stringResource(R.string.total_paid),
-            value = "${getCurrencySymbol(details.currencyCode)}${String.format("%.2f", details.amountPaid)}"
+            value = "${getCurrencySymbol(details.currencyCode)}${details.amountPaid?.let { String.format("%.2f", it) } ?: "0.00"}"
         )
         
-        val remaining = details.price - details.amountPaid
+        // Calculate remaining amount safely using helper method
+        val remaining = details.getRemainingAmount()
         DetailRow(
             label = stringResource(R.string.remaining),
             value = "${getCurrencySymbol(details.currencyCode)}${String.format("%.2f", remaining)}"
@@ -277,12 +284,12 @@ private fun BillingDetailsContent(
         
         DetailRow(
             label = stringResource(R.string.approval_number),
-            value = details.approvalNumber
+            value = details.approvalNumber ?: "N/A"
         )
         
         DetailRow(
-            label = stringResource(R.string.voucher_number),
-            value = details.voucherNumber
+            label = "Voucher Number",
+            value = details.voucherNumber ?: "N/A"
         )
         
         Spacer(modifier = Modifier.height(24.dp))
@@ -336,8 +343,8 @@ private fun DetailRow(label: String, value: String) {
 }
 
 // Helper functions
-private fun getSourceColor(source: String): Color {
-    return when (source.lowercase()) {
+private fun getSourceColor(source: String?): Color {
+    return when (source?.lowercase()) {
         Constants.SOURCE_TERMINAL.lowercase() -> TerminalGreen
         Constants.SOURCE_POS.lowercase() -> PosGreen
         Constants.SOURCE_MANUAL.lowercase() -> ManualGray
@@ -345,8 +352,8 @@ private fun getSourceColor(source: String): Color {
     }
 }
 
-private fun getSourceIcon(source: String): Int {
-    return when (source.lowercase()) {
+private fun getSourceIcon(source: String?): Int {
+    return when (source?.lowercase()) {
         Constants.SOURCE_TERMINAL.lowercase() -> R.drawable.ic_attendant
         Constants.SOURCE_POS.lowercase() -> R.drawable.ic_pos
         Constants.SOURCE_MANUAL.lowercase() -> R.drawable.ic_card
@@ -354,18 +361,18 @@ private fun getSourceIcon(source: String): Int {
     }
 }
 
-private fun getStatusColor(status: String): Color {
-    return when (status.lowercase()) {
+private fun getStatusColor(status: String?): Color {
+    return when (status?.lowercase()) {
         Constants.STATUS_PASSED.lowercase() -> StatusPassed
         Constants.STATUS_REJECTED.lowercase() -> StatusRejected
         else -> Color.Black
     }
 }
 
-private fun getCurrencySymbol(currencyCode: String): String {
-    return when (currencyCode.uppercase()) {
+private fun getCurrencySymbol(currencyCode: String?): String {
+    return when (currencyCode?.uppercase()) {
         Constants.CURRENCY_USD -> Constants.SYMBOL_USD
         Constants.CURRENCY_ILS -> Constants.SYMBOL_ILS
-        else -> currencyCode
+        else -> currencyCode ?: ""
     }
 }
